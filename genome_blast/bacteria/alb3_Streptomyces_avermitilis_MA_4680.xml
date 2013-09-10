@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Streptomyces_avermitilis_MA_4680</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4318</Hit_id>
+          <Hit_def>Streptomyces_avermitilis_MA_4680 gi|29830855|ref|NP_825489.1| putative inner membrane protein translocase component YidC [Streptomyces avermitilis MA-4680]</Hit_def>
+          <Hit_accession>4318</Hit_accession>
+          <Hit_len>428</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>116.316</Hsp_bit-score>
+              <Hsp_score>290</Hsp_score>
+              <Hsp_evalue>3.4704e-29</Hsp_evalue>
+              <Hsp_query-from>138</Hsp_query-from>
+              <Hsp_query-to>352</Hsp_query-to>
+              <Hsp_hit-from>36</Hsp_hit-from>
+              <Hsp_hit-to>254</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>69</Hsp_identity>
+              <Hsp_positive>117</Hsp_positive>
+              <Hsp_gaps>22</Hsp_gaps>
+              <Hsp_align-len>228</Hsp_align-len>
+              <Hsp_qseq>YAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE---GLFTEGFFWIPS----LGGPTSIAARQSGSGISWL-FPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPA-----QKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYL</Hsp_qseq>
+              <Hsp_hseq>WAWGLSIVSLVILIRICLIPLFVKQIKATRAMQTLQPEMKKIQERYKNDKQRQSEEMMKLYKESGTNPLSSCLPILAQSPFFFALYHVLNGIATGKTIGVIDDQLLASARKAHIFGAPLAAKFTDSADKVTQLGATLMDVR--------VVTAIMIVLMSASQFYTQRQLMTKNVDTTVKTPFMQQQKMLMYVF-PVMFAIFGINFPVGVLVYWLTTNVWTMGQQMYV</Hsp_hseq>
+              <Hsp_midline>+A+G +I+ L I+++    PL  +Q+++T AMQ LQP++K IQ+RY  +++R   E  +LYK++G NPL+ CLP LA  P +  LY  L+ +A     G+  +            G P +     S   ++ L    +D          V   ++ VL+ ASQ+ +   +     D        Q+  +L++ F P+M   F ++ P G+ +YWLT NV +  QQ+Y+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5214</Hit_id>
+          <Hit_def>Streptomyces_avermitilis_MA_4680 gi|29831751|ref|NP_826385.1| hypothetical protein SAV_5208 [Streptomyces avermitilis MA-4680]</Hit_def>
+          <Hit_accession>5214</Hit_accession>
+          <Hit_len>243</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>63.929</Hsp_bit-score>
+              <Hsp_score>154</Hsp_score>
+              <Hsp_evalue>3.96331e-12</Hsp_evalue>
+              <Hsp_query-from>144</Hsp_query-from>
+              <Hsp_query-to>243</Hsp_query-to>
+              <Hsp_hit-from>28</Hsp_hit-from>
+              <Hsp_hit-to>131</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>104</Hsp_align-len>
+              <Hsp_qseq>IILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSN--VANEG--LFTEGFFWIP</Hsp_qseq>
+              <Hsp_hseq>IVLFTALVRLLVHPLSRASARGQRARARLQPQVAELRKKHGKNPEKLQKALLELHAEEKVSPLSGCLPGLFQLPAFFLLYHLFSNTTIGGEGNELLTHTLFTAP</Hsp_hseq>
+              <Hsp_midline>I+L T +V+   +PL++       A   LQP++  +++++  N E++Q     L+ +  V+PL+GCLP L  +P +  LY   SN  +  EG  L T   F  P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>7676</Statistics_db-num>
+          <Statistics_db-len>2614811</Statistics_db-len>
+          <Statistics_hsp-len>92</Statistics_hsp-len>
+          <Statistics_eff-space>706189030</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

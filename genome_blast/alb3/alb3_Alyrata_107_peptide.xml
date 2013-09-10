@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Alyrata_107_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|17724</Hit_id>
+          <Hit_def>@Arabidopsis_lyrata@_901831|PACid:16051471 </Hit_def>
+          <Hit_accession>17724</Hit_accession>
+          <Hit_len>458</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>818.535</Hsp_bit-score>
+              <Hsp_score>2113</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>462</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>458</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>448</Hsp_identity>
+              <Hsp_positive>452</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>462</Hsp_align-len>
+              <Hsp_qseq>MARVLVSSPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNEIPPFHGLDSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELVEESQSESEEGSDDEEEEAREGALASSTTSKPLPEVGQRRSKRSKRKRTV</Hsp_qseq>
+              <Hsp_hseq>MARVLVSSPSSFFGSPLIKPSSSLRHSG----GGAQFLPYRSNNNKLFTTSTTVRFSLNEIPPFHGLDSSVDIGAILTRAESLLYTIADAAVVGADSVVSTDSSAVQKSGGWFGFISDGMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLLTEGFFWIPSLGGPTTIAARQSGSGISWLFPFVDGHPPLGWYDTAAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWFTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELLEESQSESEEGSDDEEEEAREGALASSTTSKPLPDVGQRRSKRSKRKRTV</Hsp_hseq>
+              <Hsp_midline>MARVLVSSPSSFFGSPLIKPSSSLRHSG    G AQFLPYRSNNNKLFTTSTTVRFSLNEIPPFHGLDSSVDIGAI TRAESLLYTIADAAVVGADSVV+TDSSAVQKSGGWFGFISD MELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGL TEGFFWIPSLGGPT+IAARQSGSGISWLFPFVDGHPPLGWYDT AYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYW TNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVEL+EESQSESEEGSDDEEEEAREGALASSTTSKPLP+VGQRRSKRSKRKRTV</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|24484</Hit_id>
+          <Hit_def>@Arabidopsis_lyrata@_496379|PACid:16058231 </Hit_def>
+          <Hit_accession>24484</Hit_accession>
+          <Hit_len>429</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>51.9878</Hsp_bit-score>
+              <Hsp_score>123</Hsp_score>
+              <Hsp_evalue>3.85081e-07</Hsp_evalue>
+              <Hsp_query-from>127</Hsp_query-from>
+              <Hsp_query-to>354</Hsp_query-to>
+              <Hsp_hit-from>137</Hsp_hit-from>
+              <Hsp_hit-to>345</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>47</Hsp_identity>
+              <Hsp_positive>99</Hsp_positive>
+              <Hsp_gaps>39</Hsp_gaps>
+              <Hsp_align-len>238</Hsp_align-len>
+              <Hsp_qseq>LKDGLSAVHVPYAYGF--AIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAG------NQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE--GLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRK</Hsp_qseq>
+              <Hsp_hseq>LQHCIDMVHSFTGFGWWASIVVATILIRSSTVPLLIKQMKDTTKLALMRPRLESIREEMQNKGMDSVTMAEGQKKMKNLFKEYGVTPFTPMKGMFIQGPLFICFFLAIRNMAEKVPSFQTGGALWFTDLTTPDSL----------YILPVITGL---------------TFLITVECNAQEGME----GNPMAGTVKNVCRGFALLTVPMTMSFPQAIFCYWITSNLFSLMYGLVIKR</Hsp_hseq>
+              <Hsp_midline>L+  +  VH    +G+  +I++ TI+++++T PL  +Q++ T  +  ++P++++I++               Q +   L+K+ GV P           P++I  + A+ N+A +     T G  W   L  P S+          ++ P + G                  LI  +  + E M+     +P       V +   L+     +S P  +  YW+T+N+ S    + +++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|8400</Hit_id>
+          <Hit_def>@Arabidopsis_lyrata@_483801|PACid:16042147 </Hit_def>
+          <Hit_accession>8400</Hit_accession>
+          <Hit_len>434</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>49.6766</Hsp_bit-score>
+              <Hsp_score>117</Hsp_score>
+              <Hsp_evalue>2.07555e-06</Hsp_evalue>
+              <Hsp_query-from>143</Hsp_query-from>
+              <Hsp_query-to>354</Hsp_query-to>
+              <Hsp_hit-from>160</Hsp_hit-from>
+              <Hsp_hit-to>350</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>45</Hsp_identity>
+              <Hsp_positive>95</Hsp_positive>
+              <Hsp_gaps>45</Hsp_gaps>
+              <Hsp_align-len>224</Hsp_align-len>
+              <Hsp_qseq>AIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRY----------AGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE--GLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRK</Hsp_qseq>
+              <Hsp_hseq>SIALTTVLIRGVTIPILLNQLKATYKLNVLRPQLEELRQEMSTKAQDPEAMAEGQRRMQL----LFKEHGVTPFTPLKGLIIQGPIFISFFFAIRNMAEKVPSFKTGGTLWFTDL----------TTADTTYILPLLTA---------VTFLIM-----VESNMQEGLEGNPVAGTMKKFSRIIAFLSIPVLIG-----IEKALFCYWLTSNLFTLVYGLTLRR</Hsp_hseq>
+              <Hsp_midline>+I L T++++  T P+   Q+++T  +  L+P+++ ++Q            A  Q R+QL    L+K+ GV P       +   P++I  + A+ N+A +     T G  W   L          + +  +++ P +           V +L++         +   +   P      + + ++ F  +P++IG     +   L  YWLT+N+ +    + LR+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|17489</Hit_id>
+          <Hit_def>@Arabidopsis_lyrata@_475515|PACid:16051236 </Hit_def>
+          <Hit_accession>17489</Hit_accession>
+          <Hit_len>524</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.5058</Hsp_bit-score>
+              <Hsp_score>88</Hsp_score>
+              <Hsp_evalue>0.00713682</Hsp_evalue>
+              <Hsp_query-from>267</Hsp_query-from>
+              <Hsp_query-to>411</Hsp_query-to>
+              <Hsp_hit-from>191</Hsp_hit-from>
+              <Hsp_hit-to>362</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>75</Hsp_positive>
+              <Hsp_gaps>31</Hsp_gaps>
+              <Hsp_align-len>174</Hsp_align-len>
+              <Hsp_qseq>VDGHPPLG-----WYDTVAYL-------VLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIG-------YFALSVPSGLSIYWLTNNVLSTAQQVYLR------KLG----GAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVE</Hsp_qseq>
+              <Hsp_hseq>LDGHPGFDSGGALWFQNLSDLPVGSFGPVFPILIAAFHYINIQISFDTSTIRQTTGLTGLLMRYYKLYLEILGVPLFFVGYAIPQGSLVYWVTNSSVNIFQQLSLKHPRVGAKLGLLTQGASPSVEHSME--ISESVIKYVDSDLKEHTLSLQTLTPEELLSLSVQVLSKDDKE</Hsp_hseq>
+              <Hsp_midline>+DGHP        W+  ++ L       V P+L+ A  Y++++I     T       T L+ ++  L +        +   ++P G  +YW+TN+ ++  QQ+ L+      KLG    GA P+++ +    IS    K   +   +     + L  +E  S   + ++KD  E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|22200</Hit_id>
+          <Hit_def>@Arabidopsis_lyrata@_904764|PACid:16055947 </Hit_def>
+          <Hit_accession>22200</Hit_accession>
+          <Hit_len>117</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.642948</Hsp_evalue>
+              <Hsp_query-from>392</Hsp_query-from>
+              <Hsp_query-to>461</Hsp_query-to>
+              <Hsp_hit-from>4</Hsp_hit-from>
+              <Hsp_hit-to>70</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>70</Hsp_align-len>
+              <Hsp_qseq>LKEQEKRSKKNKAVAKDTVELVEESQSESEEGSDDEEEEAREGALASSTTSKPLPEVGQRRSKRSKRKRT</Hsp_qseq>
+              <Hsp_hseq>VKREERREEDNGNIEKPSTEVV---RTVTEEEVDEFFKILRRVHVATRTVAKVNGGVVERELPSKKRKRT</Hsp_hseq>
+              <Hsp_midline>+K +E+R + N  + K + E+V   ++ +EE  D+  +  R   +A+ T +K    V +R     KRKRT</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>32670</Statistics_db-num>
+          <Statistics_db-len>11773785</Statistics_db-len>
+          <Statistics_hsp-len>102</Statistics_hsp-len>
+          <Statistics_eff-space>3038920200</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

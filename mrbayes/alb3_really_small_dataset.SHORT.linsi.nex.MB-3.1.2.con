@@ -1,0 +1,13 @@
+#NEXUS
+
+[ID: None Available]
+begin trees;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (Alb3_gi_15226968_ref_NP_180446.1_:0.090120,Oryza_sativa_gnl_BL_ORD_ID_27700:0.077800,(((Selaginella_moellendorffii_gnl_BL_ORD_ID_8056:0.136996,(Oryza_sativa_gnl_BL_ORD_ID_28879:0.116440,Alb4_gi_332192418_gb_AEE30539.1_:0.181334)1.00:0.084944)0.83:0.053721,Physcomitrella_patens_gnl_BL_ORD_ID_31321:0.157154)0.83:0.064986,((Ostreococcus_lucimarinus_gnl_BL_ORD_ID_557:0.236111,(Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9070:0.245990,((Cyanidioschyzon_merolae_gnl_BL_ORD_ID_4555:0.333922,((Bordetella_petrii_DSM_12804_gnl_BL_ORD_ID_5023:0.263288,(Pseudomonas_stutzeri_A1501_gnl_BL_ORD_ID_4123:0.057854,pfYidC_gi_359763816_gb_AEV65895.1_:0.070777)0.99:0.076531)0.99:0.123740,Legionella_pneumophila_2300_99_Alcoy_gnl_BL_ORD_ID_3186:0.133072)1.00:0.659452)0.97:0.127484,Cyanophora_paradoxa_gnl_BL_ORD_ID_5973:0.266104)1.00:0.125656)0.93:0.086308)1.00:0.127307,(Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5308:0.302641,Ostreococcus_lucimarinus_gnl_BL_ORD_ID_3977:0.542294)1.00:0.175938)1.00:0.112891)0.72:0.064394);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (mean of the posterior probability density).]
+   tree con_50_majrule = (Alb3_gi_15226968_ref_NP_180446.1_:0.090120,Oryza_sativa_gnl_BL_ORD_ID_27700:0.077800,(((Selaginella_moellendorffii_gnl_BL_ORD_ID_8056:0.136996,(Oryza_sativa_gnl_BL_ORD_ID_28879:0.116440,Alb4_gi_332192418_gb_AEE30539.1_:0.181334):0.084944):0.053721,Physcomitrella_patens_gnl_BL_ORD_ID_31321:0.157154):0.064986,((Ostreococcus_lucimarinus_gnl_BL_ORD_ID_557:0.236111,(Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9070:0.245990,((Cyanidioschyzon_merolae_gnl_BL_ORD_ID_4555:0.333922,((Bordetella_petrii_DSM_12804_gnl_BL_ORD_ID_5023:0.263288,(Pseudomonas_stutzeri_A1501_gnl_BL_ORD_ID_4123:0.057854,pfYidC_gi_359763816_gb_AEV65895.1_:0.070777):0.076531):0.123740,Legionella_pneumophila_2300_99_Alcoy_gnl_BL_ORD_ID_3186:0.133072):0.659452):0.127484,Cyanophora_paradoxa_gnl_BL_ORD_ID_5973:0.266104):0.125656):0.086308):0.127307,(Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5308:0.302641,Ostreococcus_lucimarinus_gnl_BL_ORD_ID_3977:0.542294):0.175938):0.112891):0.064394);
+end;

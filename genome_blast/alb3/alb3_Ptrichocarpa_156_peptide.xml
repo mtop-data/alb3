@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Ptrichocarpa_156_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|31460</Hit_id>
+          <Hit_def>@Populus_trichocarpa@_POPTR_0001s24450.1|PACid:18237821 </Hit_def>
+          <Hit_accession>31460</Hit_accession>
+          <Hit_len>451</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>601.282</Hsp_bit-score>
+              <Hsp_score>1549</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>448</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>436</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>320</Hsp_identity>
+              <Hsp_positive>361</Hsp_positive>
+              <Hsp_gaps>28</Hsp_gaps>
+              <Hsp_align-len>456</Hsp_align-len>
+              <Hsp_qseq>MARVLVSSPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNE-IPPFHG-LDSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSS---AVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELVEE---SQSESEEGSDDEEEEAREGALASSTTSKPLPEV</Hsp_qseq>
+              <Hsp_hseq>MARTLLSSPP-FIGTPL--PSLS-RHA--------------LTTNRRFI-STRIKLSLHDNIPPIHHHLHSSVDFNTIISRAEGFLYTLADAAVAVDSAASTTSSDTADAAQKNGGWFGFISDGMEFVLKVLKGGLSAVHVPYAYGFAIILLTIAVKVATLPLTKKQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYRQAGVNPLAGCFPTLATIPVWIGLYQALSNVANEGVLTEGFFWIPSLGGPTTIAARQSGSGISWLFPFVDGHPPLGWHDTAAYLVLPVLLIASQYVSMEIMKPPQTDDPTQKNTLLVFKFLPIMIGYFSLSVPSGLSIYWFTNNVLSTAQQVWLRKLGGAKPVVNENASGIITAGRAKRSASQPGQPGDRFKQLKEQDKSKTLRKALPTEGVQALDSASGSDEDSDEETNDKGEEVLEETYASS-ASKRVPDI</Hsp_hseq>
+              <Hsp_midline>MAR L+SSP  F G+PL  PS S RH+                 N+ F  ST ++ SL++ IPP H  L SSVD   I +RAE  LYT+ADAAV    +  TT S    A QK+GGWFGFISD ME VLK+LK GLSAVHVPYAYGFAIILLTI VK AT PLTK+QVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLY+QAGVNPLAGC PTLATIPVWIGLYQALSNVANEG+ TEGFFWIPSLGGPT+IAARQSGSGISWLFPFVDGHPPLGW+DT AYLVLPVLLIASQYVSMEIMKPPQTDDP QKNTLLVFKFLP+MIGYF+LSVPSGLSIYW TNNVLSTAQQV+LRKLGGAKP ++ENAS II+AGRAKRS +QP   G+RF+QLKEQ+K     KA+  + V+ ++    S  +S+E ++D+ EE  E   ASS  SK +P++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|20843</Hit_id>
+          <Hit_def>@Populus_trichocarpa@_POPTR_0009s03440.1|PACid:18227085 </Hit_def>
+          <Hit_accession>20843</Hit_accession>
+          <Hit_len>445</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>583.563</Hsp_bit-score>
+              <Hsp_score>1503</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>443</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>426</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>316</Hsp_identity>
+              <Hsp_positive>356</Hsp_positive>
+              <Hsp_gaps>23</Hsp_gaps>
+              <Hsp_align-len>446</Hsp_align-len>
+              <Hsp_qseq>MARVLVSSPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNE-IPPFHG-LDSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELVEESQSE-SEEGSDDEEEEAREGALASSTTSK</Hsp_qseq>
+              <Hsp_hseq>MARTLLSSPP-FIATSL--PSLS-RHT--------------LTTNRRFI-STRIKLSLHDNIPPIHHHLDSSIDFNSIISRAEGFLYTLADAAVAVDSAASTTSTDTAQKSGGWFGFISDGMEFVLKVLKDGLSAVHVPYAYGFAIILLTVFVKVATLPLTKKQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYRQAGVNPLAGCFPTLATIPVWIGLYQALSNVANEGVLTEGFFWIPSLGGPTTIAARQSGSGISWLFPFVDGHPPLGWNDTAAYLVLPVLLVVSQYVSMEIMKPPQTDDPTQKNTLLVFKFLPLMIGYFSLSVPSGLSIYWFTNNVLSTAQQVWLRQLGGAKPVVNENASGIITAGRAKRSAAQPGQPGDRFR-LKEEEKGKKLSKALQSEDVQALDSASDEDSDEETKDKGEEVLEEAYASSASKK</Hsp_hseq>
+              <Hsp_midline>MAR L+SSP  F  + L  PS S RH+                 N+ F  ST ++ SL++ IPP H  LDSS+D  +I +RAE  LYT+ADAAV    +  TT +   QKSGGWFGFISD ME VLK+LKDGLSAVHVPYAYGFAIILLT+ VK AT PLTK+QVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLY+QAGVNPLAGC PTLATIPVWIGLYQALSNVANEG+ TEGFFWIPSLGGPT+IAARQSGSGISWLFPFVDGHPPLGW DT AYLVLPVLL+ SQYVSMEIMKPPQTDDP QKNTLLVFKFLPLMIGYF+LSVPSGLSIYW TNNVLSTAQQV+LR+LGGAKP ++ENAS II+AGRAKRS AQP   G+RFR LKE+EK  K +KA+  + V+ ++ +  E S+E + D+ EE  E A ASS + K</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|35205</Hit_id>
+          <Hit_def>@Populus_trichocarpa@_POPTR_0010s06180.3|PACid:18241606 </Hit_def>
+          <Hit_accession>35205</Hit_accession>
+          <Hit_len>543</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>466.463</Hsp_bit-score>
+              <Hsp_score>1199</Hsp_score>
+              <Hsp_evalue>2.9571e-159</Hsp_evalue>
+              <Hsp_query-from>73</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>69</Hsp_hit-from>
+              <Hsp_hit-to>413</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>227</Hsp_identity>
+              <Hsp_positive>280</Hsp_positive>
+              <Hsp_gaps>22</Hsp_gaps>
+              <Hsp_align-len>348</Hsp_align-len>
+              <Hsp_qseq>IGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAG--RAKRSIAQPDDA-----------------GERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>IKDLFGRAESIVYTIADAAVSNSDQVV--DSSTTQNSD-WLSGITYGLESTLKVLKDGLSAVHLPYAYGFAIILLTVLVKAATFPLSKKQVESAMAMRSLQPQIKAIQQRYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTAIASRQNGSGISWLFPFVDGHPPLGWSDTVAYLVLPVMLVVSQYISVQIMQSSQSDDPNVKNSQAITKFLPLMIGYFSLSVPSGLSLYWLTNNILSTAQQVWLQKSGGAKNPMMKSSDDIVKEDQLQIQKPVSELNSVQTKTRQEEKFTPEGLRPGERFKQLKDQEARKRQ</Hsp_hseq>
+              <Hsp_midline>I  +F RAES++YTIADAAV  +D VV  DSS  Q S  W   I+  +E  LK+LKDGLSAVH+PYAYGFAIILLT++VKAAT+PL+K+QVES +AM++LQP+IKAIQQRYAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVANEGL TEGFFWIPSL GPT+IA+RQ+GSGISWLFPFVDGHPPLGW DTVAYLVLPV+L+ SQY+S++IM+  Q+DDP  KN+  + KFLPLMIGYF+LSVPSGLS+YWLTNN+LSTAQQV+L+K GGAK  M +++  I+     + ++ +++ +                   GERF+QLK+QE R ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|35204</Hit_id>
+          <Hit_def>@Populus_trichocarpa@_POPTR_0010s06180.1|PACid:18241605 </Hit_def>
+          <Hit_accession>35204</Hit_accession>
+          <Hit_len>545</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>461.455</Hsp_bit-score>
+              <Hsp_score>1186</Hsp_score>
+              <Hsp_evalue>3.22309e-157</Hsp_evalue>
+              <Hsp_query-from>73</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>69</Hsp_hit-from>
+              <Hsp_hit-to>415</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>227</Hsp_identity>
+              <Hsp_positive>280</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>350</Hsp_align-len>
+              <Hsp_qseq>IGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPP--QTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAG--RAKRSIAQPDDA-----------------GERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>IKDLFGRAESIVYTIADAAVSNSDQVV--DSSTTQNSD-WLSGITYGLESTLKVLKDGLSAVHLPYAYGFAIILLTVLVKAATFPLSKKQVESAMAMRSLQPQIKAIQQRYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTAIASRQNGSGISWLFPFVDGHPPLGWSDTVAYLVLPVMLVVSQYISVQIMQSSQFQSDDPNVKNSQAITKFLPLMIGYFSLSVPSGLSLYWLTNNILSTAQQVWLQKSGGAKNPMMKSSDDIVKEDQLQIQKPVSELNSVQTKTRQEEKFTPEGLRPGERFKQLKDQEARKRQ</Hsp_hseq>
+              <Hsp_midline>I  +F RAES++YTIADAAV  +D VV  DSS  Q S  W   I+  +E  LK+LKDGLSAVH+PYAYGFAIILLT++VKAAT+PL+K+QVES +AM++LQP+IKAIQQRYAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVANEGL TEGFFWIPSL GPT+IA+RQ+GSGISWLFPFVDGHPPLGW DTVAYLVLPV+L+ SQY+S++IM+    Q+DDP  KN+  + KFLPLMIGYF+LSVPSGLS+YWLTNN+LSTAQQV+L+K GGAK  M +++  I+     + ++ +++ +                   GERF+QLK+QE R ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|42274</Hit_id>
+          <Hit_def>@Populus_trichocarpa@_POPTR_0008s18240.3|PACid:18248751 </Hit_def>
+          <Hit_accession>42274</Hit_accession>
+          <Hit_len>509</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>442.58</Hsp_bit-score>
+              <Hsp_score>1137</Hsp_score>
+              <Hsp_evalue>2.41582e-150</Hsp_evalue>
+              <Hsp_query-from>73</Hsp_query-from>
+              <Hsp_query-to>393</Hsp_query-to>
+              <Hsp_hit-from>69</Hsp_hit-from>
+              <Hsp_hit-to>405</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>219</Hsp_identity>
+              <Hsp_positive>270</Hsp_positive>
+              <Hsp_gaps>22</Hsp_gaps>
+              <Hsp_align-len>340</Hsp_align-len>
+              <Hsp_qseq>IGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAG--RAKRSIAQ---------------PDDA--GERFRQLK</Hsp_qseq>
+              <Hsp_hseq>IKNLFGRAESIIYTIADAAVSNPEQVV--DSSTKQNSD-WLSGITSCLESTLKVLKDGLSALHVPYAYGFAIILLTVLVKAATFPLSKKQVESAMAMRSLQPQIKAVQQLYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTTIAERQNGSGISWLFPFVDGQPPLGWSDTVAYLVLPAMLVVLQYMSVQIMQSSQSDDPNVKNSQAIMKFLPLMIGYFSLSVPSGLSLYWLTNNILSTTQQVWLQKLGGAKNPVTKFSNDIVKEDQLQVQKPISELNSIQTKTRQEEKLTPEGSRPGERFKQLK</Hsp_hseq>
+              <Hsp_midline>I  +F RAES++YTIADAAV   + VV  DSS  Q S  W   I+  +E  LK+LKDGLSA+HVPYAYGFAIILLT++VKAAT+PL+K+QVES +AM++LQP+IKA+QQ YAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVANEGL TEGFFWIPSL GPT+IA RQ+GSGISWLFPFVDG PPLGW DTVAYLVLP +L+  QY+S++IM+  Q+DDP  KN+  + KFLPLMIGYF+LSVPSGLS+YWLTNN+LST QQV+L+KLGGAK  + + ++ I+     + ++ I++               P+ +  GERF+QLK</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>45033</Statistics_db-num>
+          <Statistics_db-len>17235199</Statistics_db-len>
+          <Statistics_hsp-len>105</Statistics_hsp-len>
+          <Statistics_eff-space>4464904038</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

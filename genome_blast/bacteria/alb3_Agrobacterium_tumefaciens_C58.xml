@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Agrobacterium_tumefaciens_C58</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|371</Hit_id>
+          <Hit_def>@Agrobacterium_tumefaciens_C58@ gi|159184283|ref|NP_353415.2| protein translocase subunit YidC [Agrobacterium tumefaciens str. C58]</Hit_def>
+          <Hit_accession>371</Hit_accession>
+          <Hit_len>599</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>121.709</Hsp_bit-score>
+              <Hsp_score>304</Hsp_score>
+              <Hsp_evalue>1.6051e-30</Hsp_evalue>
+              <Hsp_query-from>111</Hsp_query-from>
+              <Hsp_query-to>365</Hsp_query-to>
+              <Hsp_hit-from>355</Hsp_hit-from>
+              <Hsp_hit-to>586</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>80</Hsp_identity>
+              <Hsp_positive>126</Hsp_positive>
+              <Hsp_gaps>29</Hsp_gaps>
+              <Hsp_align-len>258</Hsp_align-len>
+              <Hsp_qseq>GWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYL---VLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDEN</Hsp_qseq>
+              <Hsp_hseq>GWFYFITKPMFKMMDFFFRYFGN------FGVAILLTTIVVKALFFPLASKQYASMANMKRMQPKMEELKAKHGDDRMAMQQAMMQLYKEEKINPVAGCWPMLLQIPVFFALYKVIY-VTIEMRHAPFFGWIHDLSAPDPTS----------LFNLFGLLP----YDVPHFLMIGVWPLVMGITMFLQMRMN--PTPPDPTQA---MIFTWMPLIFTFMLASFPAGLVIYWAWNNTLSISQQALIMKRHGAKIELFDN</Hsp_hseq>
+              <Hsp_midline>GWF FI+  M  ++               +G AI+L TI+VKA  +PL  +Q  S   M+ +QPK++ ++ ++  ++  +Q    +LYK+  +NP+AGC P L  IPV+  LY+ +  V  E      F WI  L  P   +          LF      P    YD   +L   V P+++  + ++ M +   P   DP Q    ++F ++PL+  +   S P+GL IYW  NN LS +QQ  + K  GAK  + +N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|554</Hit_id>
+          <Hit_def>@Agrobacterium_tumefaciens_C58@ gi|15887915|ref|NP_353596.1| chemotaxis protein [Agrobacterium tumefaciens str. C58]</Hit_def>
+          <Hit_accession>554</Hit_accession>
+          <Hit_len>426</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.00430478</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>243</Hsp_query-to>
+              <Hsp_hit-from>219</Hsp_hit-from>
+              <Hsp_hit-to>326</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>34</Hsp_identity>
+              <Hsp_positive>54</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>121</Hsp_align-len>
+              <Hsp_qseq>VHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCL--------PTLATIP-VWIGLYQALSNVANEGLFT--EGFFWIP</Hsp_qseq>
+              <Hsp_hseq>LHSPYASQFADLLVSLVVKRAD-SIGEEAIQETFAMMD------------AERQKEAYLRLSRLAAISGKDSLARMAAVKAKTLSPALPGTPEVQANLYESLSNIGTPDVVSAIEAIGQIP</Hsp_hseq>
+              <Hsp_midline>+H PYA  FA +L++++VK A   + ++ ++ T AM +            A  Q+   L  SRL   +G + LA           P L   P V   LY++LSN+    + +  E    IP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5355</Statistics_db-num>
+          <Statistics_db-len>1662940</Statistics_db-len>
+          <Statistics_hsp-len>88</Statistics_hsp-len>
+          <Statistics_eff-space>445695800</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

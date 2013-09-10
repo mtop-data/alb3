@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Ppersica_139_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1030</Hit_id>
+          <Hit_def>@Prunus_persica@_ppa003754m|PACid:17641336 </Hit_def>
+          <Hit_accession>1030</Hit_accession>
+          <Hit_len>551</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>436.417</Hsp_bit-score>
+              <Hsp_score>1121</Hsp_score>
+              <Hsp_evalue>1.65644e-147</Hsp_evalue>
+              <Hsp_query-from>68</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>61</Hsp_hit-from>
+              <Hsp_hit-to>411</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>218</Hsp_identity>
+              <Hsp_positive>275</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>353</Hsp_align-len>
+              <Hsp_qseq>DSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGR-------AKRSIAQPDD------------AGERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>DAGAVLKELYDRAESLLYTVADAAV--SASSSTESVSTTKQSSDWLSGITNYLESVLKFLKDGLSAVHVPYSYGFAIILLTLLVKAATFPLTKKQVESAMAMRSLQPQVKAVQERYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFVDGHPPLGWSDTLAYLALPVLLVVSQYISVQIMQSSQSNDPNMKSSQVITKLLPLMIGYFALSVPSGLSLYWFTNNILTTAQQVWLQKFGGAKNPVSQLSDNFIKEGEPQIQKSVSELKLTQKDTRQEEKLTPEGLRPGERFKMIKEQEARRKQ</Hsp_hseq>
+              <Hsp_midline>D+   +  ++ RAESLLYT+ADAAV  + S  T   S  ++S  W   I++ +E VLK LKDGLSAVHVPY+YGFAIILLT++VKAAT+PLTK+QVES +AM++LQP++KA+Q+RYAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVA+EGL TEGFFWIPSL GPT++AARQ+GSGISWLFPFVDGHPPLGW DT+AYL LPVLL+ SQY+S++IM+  Q++DP  K++ ++ K LPLMIGYFALSVPSGLS+YW TNN+L+TAQQV+L+K GGAK  + + +   I  G        ++  + Q D              GERF+ +KEQE R K+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4391</Hit_id>
+          <Hit_def>@Prunus_persica@_ppa011055m|PACid:17644746 </Hit_def>
+          <Hit_accession>4391</Hit_accession>
+          <Hit_len>225</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>286.574</Hsp_bit-score>
+              <Hsp_score>732</Hsp_score>
+              <Hsp_evalue>9.51919e-94</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>232</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>219</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>156</Hsp_identity>
+              <Hsp_positive>180</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>233</Hsp_align-len>
+              <Hsp_qseq>MARVLVSSPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNEI-PPFHGLDSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE</Hsp_qseq>
+              <Hsp_hseq>MAKTLVSS-TPFVGTSL--PSISRRG--------AYTLPYRSGNG---LVSTRIRFSLHDVVPPINPFDSGADVASLLSRAEGLLYTLADAAVAVDPAASGSADATAQKNGGWFGFISEAMEFVLKILKDGLATVHVPYAYGFAIILLTVLVKLATLPLTKQQVESTLAMQNLQPKLKAIQERYKGNQERIQLETSRLYRQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE</Hsp_hseq>
+              <Hsp_midline>MA+ LVSS + F G+ L  PS S R         A  LPYRS N      ST +RFSL+++ PP +  DS  D+ ++ +RAE LLYT+ADAAV    +   +  +  QK+GGWFGFIS+AME VLKILKDGL+ VHVPYAYGFAIILLT++VK AT PLTKQQVESTLAMQNLQPK+KAIQ+RY GNQERIQLETSRLY+QAGVNPLAGCLPTLATIPVWIGLYQALSNVANE</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4713</Hit_id>
+          <Hit_def>@Prunus_persica@_ppa011728m|PACid:17645071 </Hit_def>
+          <Hit_accession>4713</Hit_accession>
+          <Hit_len>199</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>258.07</Hsp_bit-score>
+              <Hsp_score>658</Hsp_score>
+              <Hsp_evalue>3.99857e-83</Hsp_evalue>
+              <Hsp_query-from>268</Hsp_query-from>
+              <Hsp_query-to>447</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>183</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>128</Hsp_identity>
+              <Hsp_positive>155</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>182</Hsp_align-len>
+              <Hsp_qseq>DGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELVEESQSESEEGSDDEEEEAREGALA--SSTTSKPLPE</Hsp_qseq>
+              <Hsp_hseq>DGQPPLGWHDTAAYLVLPVLLVASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFSLSVPSGLSIYWFTNNVLSTAQQVWLRRLGGAKPVVSENASEIITAGRAKRSDSQPVEAGSRFRKLREEEKKNKLSKALSNEEVQTL-ASTSDSEAGSDEETKDKGEEILEAYASTVGKELPD</Hsp_hseq>
+              <Hsp_midline>DG PPLGW+DT AYLVLPVLL+ASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYF+LSVPSGLSIYW TNNVLSTAQQV+LR+LGGAKP + ENAS+II+AGRAKRS +QP +AG RFR+L+E+EK++K +KA++ + V+ +  S S+SE GSD+E ++  E  L   +ST  K LP+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|63</Hit_id>
+          <Hit_def>@Prunus_persica@_ppa005941m|PACid:17640356 </Hit_def>
+          <Hit_accession>63</Hit_accession>
+          <Hit_len>436</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>64.3142</Hsp_bit-score>
+              <Hsp_score>155</Hsp_score>
+              <Hsp_evalue>5.20521e-11</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>359</Hsp_query-to>
+              <Hsp_hit-from>52</Hsp_hit-from>
+              <Hsp_hit-to>359</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>86</Hsp_identity>
+              <Hsp_positive>154</Hsp_positive>
+              <Hsp_gaps>64</Hsp_gaps>
+              <Hsp_align-len>362</Hsp_align-len>
+              <Hsp_qseq>SPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNEIPPFHGLDSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSS-AVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGF--AIILLTIIVKAATYPLTKQQVESTLAMQNLQPKI----KAIQQRYAGNQE--RIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEI-MKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAK</Hsp_qseq>
+              <Hsp_hseq>SQKRFFGNNLG------RISGFGG-----FAPDRRISNALLSSSSGFACSRYMSTAIGGGSDKVEL------LSDVSGVVSDATMEAVASQVSAMSEIAIATADSW---------LPVKALQYLIGSVHTYTGLNWWAAIAITTLLIRTATVPILINQLKAMSKLALMKPQLEEYRQEMQDKGMGREAVAEFQKKTGKLYKEYGVHPLSAMKGIFVQAPVFISFFLAISNMAEK---------VPSF---------KSG-GAYW---FLDLTTPDSMY------IFPVLAALTFLLTVECNLQEGMEGNPAAGTMKNVSRGLAVLTVPFTMSFPKAVFCYWVTSNMFSLGYGLVLKYSGLKK</Hsp_hseq>
+              <Hsp_midline>S   FFG+ L       R SG GG     F P R  +N L ++S+    S        G    V++         +   ++DA +    S V+  S  A+  +  W         L +K L+  + +VH      +  AI + T++++ AT P+   Q+++   +  ++P++    + +Q +  G +     Q +T +LYK+ GV+PL+         PV+I  + A+SN+A +         +PS          +SG G  W   F+D   P   Y      + PVL   +  +++E  ++     +PA      V + L ++   F +S P  +  YW+T+N+ S    + L+  G  K</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9753</Hit_id>
+          <Hit_def>@Prunus_persica@_ppa006036m|PACid:17650193 </Hit_def>
+          <Hit_accession>9753</Hit_accession>
+          <Hit_len>431</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>60.4622</Hsp_bit-score>
+              <Hsp_score>145</Hsp_score>
+              <Hsp_evalue>8.06842e-10</Hsp_evalue>
+              <Hsp_query-from>143</Hsp_query-from>
+              <Hsp_query-to>353</Hsp_query-to>
+              <Hsp_hit-from>161</Hsp_hit-from>
+              <Hsp_hit-to>350</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>62</Hsp_identity>
+              <Hsp_positive>106</Hsp_positive>
+              <Hsp_gaps>45</Hsp_gaps>
+              <Hsp_align-len>223</Hsp_align-len>
+              <Hsp_qseq>AIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRY---AGNQERIQLETSR---LYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEI-MKPPQTDDP---AQKN--TLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLR</Hsp_qseq>
+              <Hsp_hseq>SIALTTILIRGATIPLLINQLRATTQLNLMRPHLEELKQQMQDMAMDPNVLQEGQKRMKALFKEYGVNPLSQLQPLFIQGPIFISFFLAVRNMAEK---------VPSF---------QSG-GALW---FTDLTTP----DSL--LILPVLTSLTFLITVECNMQEGLEGNPIAQTMKNYSRILAAISVPVMMGF-----PKALFCYWLTSNLFSLTYGLVIR</Hsp_hseq>
+              <Hsp_midline>+I L TI+++ AT PL   Q+ +T  +  ++P ++ ++Q+    A +   +Q    R   L+K+ GVNPL+   P     P++I  + A+ N+A +         +PS          QSG G  W   F D   P    D++  L+LPVL   +  +++E  M+     +P     KN   +L    +P+M+G+     P  L  YWLT+N+ S    + +R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>28702</Statistics_db-num>
+          <Statistics_db-len>11557397</Statistics_db-len>
+          <Statistics_hsp-len>102</Statistics_hsp-len>
+          <Statistics_eff-space>3106725480</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Ppatens_152_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|332192418|gb|AEE30539.1| ALBINO3-like protein 1 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>499</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|332192418|gb|AEE30539.1| ALBINO3-like protein 1 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>499</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|31321</Hit_id>
+          <Hit_def>@Physcomitrella_patens@_Pp1s198_153V6.3|PACid:18067858 </Hit_def>
+          <Hit_accession>31321</Hit_accession>
+          <Hit_len>526</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>435.261</Hsp_bit-score>
+              <Hsp_score>1118</Hsp_score>
+              <Hsp_evalue>9.06455e-147</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>499</Hsp_query-to>
+              <Hsp_hit-from>19</Hsp_hit-from>
+              <Hsp_hit-to>523</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>251</Hsp_identity>
+              <Hsp_positive>336</Hsp_positive>
+              <Hsp_gaps>52</Hsp_gaps>
+              <Hsp_align-len>528</Hsp_align-len>
+              <Hsp_qseq>MSSTISLKPTHLILSSFSTGKVLQFRRSRFSHTPS--SSSSRYRTLV-------------------AQLGFRPDSFDFIKDHAENLLYTIADAAVSSSETFESVAGTTTKTTQSND--WFSGIANYMETILKVLKDGLSTVHVPYSYGFAIILLTVLVKAATFPLTKKQVESAMAMKSLTPQIKAIQERYAGDQEKIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFIEGHPPLGWPDTLAYLVLPLLLVFSQYLSIQIMQ-SSQSNDPAMKSSQAVTKLLPLMIGYFALSVPSGLSLYWLTNNILSTAQQVWLQKYGGAKNPVEKFTNLVTKEDKTQQIEKSFSEPLVQKSVSELKIPREKGGEKVTPECPKPGERFRLLKEQEAKRRREKEERQKAEAALSNQNTDKAHEQDEKSDTAIVAEDDKKTELSAVDETSDGTVAVNGKPSIQKDETTN-----GTFGIGHDTEQQHSHETEKR</Hsp_qseq>
+              <Hsp_hseq>VETNVAVKP-YVVLSLLPAARGLRPRRGLLSRGPSLRKHSVRRNGLVVPKAYSGQLPDPEHVRLALSALSKTPDALEGLLTRTEGLFFTLADAAVATDP-----GQVTDAVVQKQDGGWLGGITNTLELALTFLKDGIAKIGLPYSYGFAIILLTVIVKAATYPLTKKQVESTLAMQNLQPKIKAIQTRYQGDQERIQLETARLYKQAGVNPLAGCLPTLATLPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTTIAARSSGSGISWLFPFVDGAPPLGWGDTIAYLVLPVLLIGSQYVSMQIMQPATASNDPAQNQSQLILKFLPLMIGYFSLSVPSGLSLYWLTNNVLSTAQQVYLRQLGGAQPIVDKEGSGIISAG---QAKRTPLPPPSATATATDAPTSTSTKDSR-------GTRFKQLKEEEA---RKKEARRKAAEEASKAAAAKAAEERDNILRAQLAQEAQKSAASAGETSDEAQVESDG----EKEDSDNSKALAANGAVGDSSGKQASKRSKRR</Hsp_hseq>
+              <Hsp_midline>+ + +++KP +++LS     + L+ RR   S  PS    S R   LV                   + L   PD+ + +    E L +T+ADAAV++          T    Q  D  W  GI N +E  L  LKDG++ + +PYSYGFAIILLTV+VKAAT+PLTKKQVES +AM++L P+IKAIQ RY GDQE+IQLETARLYK AG+NPLAGCLPTLAT+PVWIGLYRALSNVA+EGLLTEGFFWIPSLAGPTT+AAR +GSGISWLFPF++G PPLGW DT+AYLVLP+LL+ SQY+S+QIMQ ++ SNDPA   SQ + K LPLMIGYF+LSVPSGLSLYWLTNN+LSTAQQV+L++ GGA+  V+K  + +       Q +++   P    + +          +         G RF+ LKE+EA   R+KE R+KA    S     KA E+ +    A +A++ +K+  SA + + +  V  +G    +K+++ N         +G  + +Q S  +++R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|31320</Hit_id>
+          <Hit_def>@Physcomitrella_patens@_Pp1s198_153V6.2|PACid:18067857 </Hit_def>
+          <Hit_accession>31320</Hit_accession>
+          <Hit_len>528</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>434.876</Hsp_bit-score>
+              <Hsp_score>1117</Hsp_score>
+              <Hsp_evalue>1.09959e-146</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>499</Hsp_query-to>
+              <Hsp_hit-from>19</Hsp_hit-from>
+              <Hsp_hit-to>525</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>250</Hsp_identity>
+              <Hsp_positive>334</Hsp_positive>
+              <Hsp_gaps>46</Hsp_gaps>
+              <Hsp_align-len>526</Hsp_align-len>
+              <Hsp_qseq>MSSTISLKPTHLILSSFSTGKVLQFRRSRFSHTPS--SSSSRYRTLV-------------------AQLGFRPDSFDFIKDHAENLLYTIADAAVSSSETFESVAGTTTKTTQSND--WFSGIANYMETILKVLKDGLSTVHVPYSYGFAIILLTVLVKAATFPLTKKQVESAMAMKSLTPQIKAIQERYAGDQEKIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFIEGHPPLGWPDTLAYLVLPLLLVFSQYLSIQIMQ-SSQSNDPAMKSSQAVTKLLPLMIGYFALSVPSGLSLYWLTNNILSTAQQVWLQKYGGAKNPVEKFTNLVTKEDKTQQIEKSFSEPLVQKSVSELKIPREKGGEKVTPECPKPGERFRLLKEQEAKRRREKEERQKAEAALSNQNTDKAHEQDEKSDTAIVAEDDKKTELSAVDETSDGTVAVNGK---PSIQKDETTNGTFGIGHDTEQQHSHETEKR</Hsp_qseq>
+              <Hsp_hseq>VETNVAVKP-YVVLSLLPAARGLRPRRGLLSRGPSLRKHSVRRNGLVVPKAYSGQLPDPEHVRLALSALSKTPDALEGLLTRTEGLFFTLADAAVATDP-----GQVTDAVVQKQDGGWLGGITNTLELALTFLKDGIAKIGLPYSYGFAIILLTVIVKAATYPLTKKQVESTLAMQNLQPKIKAIQTRYQGDQERIQLETARLYKQAGVNPLAGCLPTLATLPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTTIAARSSGSGISWLFPFVDGAPPLGWGDTIAYLVLPVLLIGSQYVSMQIMQPATASNDPAQNQSQLILKFLPLMIGYFSLSVPSGLSLYWLTNNVLSTAQQVYLRQLGGAQPIVDKEGSGIISAG---QAKRTPLPPPSATATATDAPTSTSTKDSR-------GTRFKQLKEEEA---RKKEARRKAAEEASKAAAAKAAEERDNILRAQLAQEAQKSAASAGETSDEAQVESDGEKEDSDNSKEQALAANGAVGDSSGKQASKRSKRR</Hsp_hseq>
+              <Hsp_midline>+ + +++KP +++LS     + L+ RR   S  PS    S R   LV                   + L   PD+ + +    E L +T+ADAAV++          T    Q  D  W  GI N +E  L  LKDG++ + +PYSYGFAIILLTV+VKAAT+PLTKKQVES +AM++L P+IKAIQ RY GDQE+IQLETARLYK AG+NPLAGCLPTLAT+PVWIGLYRALSNVA+EGLLTEGFFWIPSLAGPTT+AAR +GSGISWLFPF++G PPLGW DT+AYLVLP+LL+ SQY+S+QIMQ ++ SNDPA   SQ + K LPLMIGYF+LSVPSGLSLYWLTNN+LSTAQQV+L++ GGA+  V+K  + +       Q +++   P    + +          +         G RF+ LKE+EA   R+KE R+KA    S     KA E+ +    A +A++ +K+  SA + + +  V  +G+       K++       +G  + +Q S  +++R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|25182</Hit_id>
+          <Hit_def>@Physcomitrella_patens@_Pp1s381_17V6.1|PACid:18061718 </Hit_def>
+          <Hit_accession>25182</Hit_accession>
+          <Hit_len>527</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>426.787</Hsp_bit-score>
+              <Hsp_score>1096</Hsp_score>
+              <Hsp_evalue>1.71098e-143</Hsp_evalue>
+              <Hsp_query-from>52</Hsp_query-from>
+              <Hsp_query-to>461</Hsp_query-to>
+              <Hsp_hit-from>92</Hsp_hit-from>
+              <Hsp_hit-to>484</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>225</Hsp_identity>
+              <Hsp_positive>289</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>412</Hsp_align-len>
+              <Hsp_qseq>PDSFDFIKDHAENLLYTIADAAVSS--SETFESVAGTTTKTTQSNDWFSGIANYMETILKVLKDGLSTVHVPYSYGFAIILLTVLVKAATFPLTKKQVESAMAMKSLTPQIKAIQERYAGDQEKIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFIEGHPPLGWPDTLAYLVLPLLLVFSQYLSIQIMQSSQSNDPAMKSSQAVTKLLPLMIGYFALSVPSGLSLYWLTNNILSTAQQVWLQKYGGAKNPVEKFTNLVTKEDKTQQIEKSFSEPLVQKSVSELKIPREKGGEKVTPECPKPGERFRLLKEQEAKRRREKEERQKAEAALSNQNTDKAHEQDEKSDTAIVAEDDKKTELSAVDETSD</Hsp_qseq>
+              <Hsp_hseq>PDALQGLLSRTEGLFFTLADVAVATDPSQVTDAVV-----QKQDGGWLGGVSNSLEIALTFLKDTIAKLGIPYSYGFAIILLTILVKAATYPLTKKQVESTLAMQNLQPKIKAIQTRYQGDQERIQLETARLYKQAGVNPLAGCLPTLATLPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTTIAARSSGSGISWLFPFVDGAPSLGWADTIAYLVLPVLLIGSQYVSMQIMQPPTTNDPAQNQSQLILKFLPLMIGYFSLSVPSGLSLYWLTNNVLSTAQQVYLRQLGGAQPIVDKEGSGIISAG---QAKRTPLPPSASTSATVTAAPTSSAKDNR-------GSRFKQLKEEDAKK---KGSRRKSAEEASKAAAAKGAEERDNLLRAQLAQDAQKST-DASEETSD</Hsp_hseq>
+              <Hsp_midline>PD+   +    E L +T+AD AV++  S+  ++V        Q   W  G++N +E  L  LKD ++ + +PYSYGFAIILLT+LVKAAT+PLTKKQVES +AM++L P+IKAIQ RY GDQE+IQLETARLYK AG+NPLAGCLPTLAT+PVWIGLYRALSNVA+EGLLTEGFFWIPSLAGPTT+AAR +GSGISWLFPF++G P LGW DT+AYLVLP+LL+ SQY+S+QIMQ   +NDPA   SQ + K LPLMIGYF+LSVPSGLSLYWLTNN+LSTAQQV+L++ GGA+  V+K  + +       Q +++   P    S +    P     +         G RF+ LKE++AK+   K  R+K+    S     K  E+ +    A +A+D +K+   A +ETSD</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|31322</Hit_id>
+          <Hit_def>@Physcomitrella_patens@_Pp1s198_153V6.1|PACid:18067859 </Hit_def>
+          <Hit_accession>31322</Hit_accession>
+          <Hit_len>445</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>423.32</Hsp_bit-score>
+              <Hsp_score>1087</Hsp_score>
+              <Hsp_evalue>3.06993e-143</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>348</Hsp_query-to>
+              <Hsp_hit-from>19</Hsp_hit-from>
+              <Hsp_hit-to>384</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>218</Hsp_identity>
+              <Hsp_positive>270</Hsp_positive>
+              <Hsp_gaps>30</Hsp_gaps>
+              <Hsp_align-len>372</Hsp_align-len>
+              <Hsp_qseq>MSSTISLKPTHLILSSFSTGKVLQFRRSRFSHTPS--SSSSRYRTLV-------------------AQLGFRPDSFDFIKDHAENLLYTIADAAVSSSETFESVAGTTTKTTQSND--WFSGIANYMETILKVLKDGLSTVHVPYSYGFAIILLTVLVKAATFPLTKKQVESAMAMKSLTPQIKAIQERYAGDQEKIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFIEGHPPLGWPDTLAYLVLPLLLVFSQYLSIQIMQ-SSQSNDPAMKSSQAVTKLLPLMIGYFALSVPSGLSLYWLTNNILSTAQQVWLQKYGGAKNPVEK</Hsp_qseq>
+              <Hsp_hseq>VETNVAVKP-YVVLSLLPAARGLRPRRGLLSRGPSLRKHSVRRNGLVVPKAYSGQLPDPEHVRLALSALSKTPDALEGLLTRTEGLFFTLADAAVATDP-----GQVTDAVVQKQDGGWLGGITNTLELALTFLKDGIAKIGLPYSYGFAIILLTVIVKAATYPLTKKQVESTLAMQNLQPKIKAIQTRYQGDQERIQLETARLYKQAGVNPLAGCLPTLATLPVWIGLYRALSNVANEGLLTEGFFWIPSLAGPTTIAARSSGSGISWLFPFVDGAPPLGWGDTIAYLVLPVLLIGSQYVSMQIMQPATASNDPAQNQSQLILKFLPLMIGYFSLSVPSGLSLYWLTNNVLSTAQQVYLRQLGGAQPIVDK</Hsp_hseq>
+              <Hsp_midline>+ + +++KP +++LS     + L+ RR   S  PS    S R   LV                   + L   PD+ + +    E L +T+ADAAV++          T    Q  D  W  GI N +E  L  LKDG++ + +PYSYGFAIILLTV+VKAAT+PLTKKQVES +AM++L P+IKAIQ RY GDQE+IQLETARLYK AG+NPLAGCLPTLAT+PVWIGLYRALSNVA+EGLLTEGFFWIPSLAGPTT+AAR +GSGISWLFPF++G PPLGW DT+AYLVLP+LL+ SQY+S+QIMQ ++ SNDPA   SQ + K LPLMIGYF+LSVPSGLSLYWLTNN+LSTAQQV+L++ GGA+  V+K</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|28679</Hit_id>
+          <Hit_def>@Physcomitrella_patens@_Pp1s184_10V6.1|PACid:18065215 </Hit_def>
+          <Hit_accession>28679</Hit_accession>
+          <Hit_len>589</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>44.669</Hsp_bit-score>
+              <Hsp_score>104</Hsp_score>
+              <Hsp_evalue>0.000123891</Hsp_evalue>
+              <Hsp_query-from>124</Hsp_query-from>
+              <Hsp_query-to>340</Hsp_query-to>
+              <Hsp_hit-from>204</Hsp_hit-from>
+              <Hsp_hit-to>386</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>55</Hsp_identity>
+              <Hsp_positive>89</Hsp_positive>
+              <Hsp_gaps>46</Hsp_gaps>
+              <Hsp_align-len>223</Hsp_align-len>
+              <Hsp_qseq>YGFAIILLTVLVKAATFPLTKKQVESAMAMKSLTPQIKA-IQERYAGDQ--EKIQLETARLYKLAGINPLAGCLPTLATIPV---WIGLYRALSNVADEGLLTEGFFWIPSLAGPTTVAARQNGSGISWLFPFIEGHPPLGWPDTLAYLVLPLLLVFSQYLSIQIMQSSQSNDPAMKSSQAVTKLLPLMIGYFALSVPSGLSLYWLTNNILSTAQQVWLQKYG</Hsp_qseq>
+              <Hsp_hseq>WWLTIIGSTLALRAALFPLTVTQLRKASLLARLSSQLPPPVPPRGSGVSLASQYRIFTKRRLELGAPSPMWLIAVPLIQVPLFIYWIVAVRQMAMASHPGFDTGGILWFTDLTVPVQGA-------LGALFPVI-----------VAATYFTNLQFYKWWL------------------EAAT--IPAFI--FGFYLPQGVFMYWITNNCCSLAQTIALRQPG</Hsp_hseq>
+              <Hsp_midline>+   II  T+ ++AA FPLT  Q+  A  +  L+ Q+   +  R +G     + ++ T R  +L   +P+      L  +P+   WI   R ++  +  G  T G  W   L  P   A       +  LFP I           +A      L  +  +L                  +A T  +P  I  F   +P G+ +YW+TNN  S AQ + L++ G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>38354</Statistics_db-num>
+          <Statistics_db-len>13535433</Statistics_db-len>
+          <Statistics_hsp-len>104</Statistics_hsp-len>
+          <Statistics_eff-space>3770913715</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

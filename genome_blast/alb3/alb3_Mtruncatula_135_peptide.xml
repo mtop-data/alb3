@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Mtruncatula_135_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|18646</Hit_id>
+          <Hit_def>@Medicago_truncatula@_Medtr3g102810.1|PACid:17450297 </Hit_def>
+          <Hit_accession>18646</Hit_accession>
+          <Hit_len>532</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>411.764</Hsp_bit-score>
+              <Hsp_score>1057</Hsp_score>
+              <Hsp_evalue>4.31971e-138</Hsp_evalue>
+              <Hsp_query-from>68</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>63</Hsp_hit-from>
+              <Hsp_hit-to>415</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>206</Hsp_identity>
+              <Hsp_positive>268</Hsp_positive>
+              <Hsp_gaps>23</Hsp_gaps>
+              <Hsp_align-len>355</Hsp_align-len>
+              <Hsp_qseq>DSSVDIGAIFTRAESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAK-----------PNMD----------ENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>DAEFVLRELFNRAEGFLYTIADAAVSSSDIAITT--TTAKQNNDWFSGITNYMEIILKVLKDGLSTLHVPYAYGFAIIMLTILVKVATFPLTRKQVESAMAMRSLQPQVKAIQKQYARDQERIQLETARLYTLANINPLAGCLPVLLTTPVWIGLYRAFSNVADEGLLNEGFFWIPSLSGPTTIAARQNGSAISWLFPFVDGHPPLGWPDTLAYLVLPVLLVVSQYISLQIMQSSQATGPNAKSSQVLNKVLPLVIGYFALSVPSGLSLYWFTNNILSTLQQIWLQKLGGAKNPLRQVLDDNVKNVDLMQVQKSVSNLNSTKIEEARKDSKLTSEGPRPGDKFKQLMEQEAKKKQ</Hsp_hseq>
+              <Hsp_midline>D+   +  +F RAE  LYTIADAAV  +D  +TT  +  +++  WF  I++ ME++LK+LKDGLS +HVPYAYGFAII+LTI+VK AT+PLT++QVES +AM++LQP++KAIQ++YA +QERIQLET+RLY  A +NPLAGCLP L T PVWIGLY+A SNVA+EGL  EGFFWIPSL GPT+IAARQ+GS ISWLFPFVDGHPPLGW DT+AYLVLPVLL+ SQY+S++IM+  Q   P  K++ ++ K LPL+IGYFALSVPSGLS+YW TNN+LST QQ++L+KLGGAK            N+D           N++KI  A +  +  ++    G++F+QL EQE + K+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1865</Hit_id>
+          <Hit_def>@Medicago_truncatula@_AC233677_14.1|PACid:17433516 </Hit_def>
+          <Hit_accession>1865</Hit_accession>
+          <Hit_len>446</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>62.7734</Hsp_bit-score>
+              <Hsp_score>151</Hsp_score>
+              <Hsp_evalue>1.62227e-10</Hsp_evalue>
+              <Hsp_query-from>89</Hsp_query-from>
+              <Hsp_query-to>359</Hsp_query-to>
+              <Hsp_hit-from>102</Hsp_hit-from>
+              <Hsp_hit-to>353</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>67</Hsp_identity>
+              <Hsp_positive>123</Hsp_positive>
+              <Hsp_gaps>49</Hsp_gaps>
+              <Hsp_align-len>286</Hsp_align-len>
+              <Hsp_qseq>DAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGF--AIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQ----------QRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANE--GLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMK-PPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAK</Hsp_qseq>
+              <Hsp_hseq>DVAHVLSDTAVDAISSQAAPVVSEVAIAAADSFLPVQVLQYAIDAVHTYTGLNWWSAIVVTTLLIRIATVPLLINQLKTTSKLTIMRPRLEELKAEMDGKTFDPQAVAEGQEKMK----QLFKEYGVTPFSPLKGLLIQGPVFISFFLAITNMAEKMPSFKHGGAFWFTDLTTPDAL----------YVFP---------------VLTALSFLVVVEFNMQEGMEGNPMGDTMKKFSRVLAFLSVP-----FTMSFPKALFCYWLTSNLFSFTYGMVLKVPGVKK</Hsp_hseq>
+              <Hsp_midline>D A V +D+ V   SS            +    L +++L+  + AVH      +  AI++ T++++ AT PL   Q+++T  +  ++P+++ ++          Q  A  QE+++    +L+K+ GV P +     L   PV+I  + A++N+A +       G FW   L  P ++          ++FP                L     L+  ++   E M+  P  D   + + +L F  +P     F +S P  L  YWLT+N+ S    + L+  G  K</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|44285</Hit_id>
+          <Hit_def>@Medicago_truncatula@_Medtr7g089280.1|PACid:17475936 </Hit_def>
+          <Hit_accession>44285</Hit_accession>
+          <Hit_len>604</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>44.2838</Hsp_bit-score>
+              <Hsp_score>103</Hsp_score>
+              <Hsp_evalue>0.000134992</Hsp_evalue>
+              <Hsp_query-from>262</Hsp_query-from>
+              <Hsp_query-to>374</Hsp_query-to>
+              <Hsp_hit-from>241</Hsp_hit-from>
+              <Hsp_hit-to>382</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>29</Hsp_gaps>
+              <Hsp_align-len>142</Hsp_align-len>
+              <Hsp_qseq>WLFPF----VDGHPPLG-----WYDTVAYL-------VLPVLLIASQYVSMEI-MKPPQTDDPAQKNTLL------VFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLR------KLGGAKPNMDENASKIISAGR</Hsp_qseq>
+              <Hsp_hseq>WMFSIRRMSLDGHPGFDCGGALWFQNLTEFSHGYSGFTFPFLMAGLHYVIVQVTFKKPMIEETQDIFDLLSKYYKRYLDFLTLPIAFIGFSIPQGSQLYWITNSSLTLVQHFALRNPAALAKLGLLDKNRQIAASKETDASK</Hsp_hseq>
+              <Hsp_midline>W+F      +DGHP        W+  +            P L+    YV +++  K P  ++      LL         FL L I +   S+P G  +YW+TN+ L+  Q   LR      KLG    N    ASK   A +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|40884</Hit_id>
+          <Hit_def>@Medicago_truncatula@_Medtr6g094110.1|PACid:17472535 </Hit_def>
+          <Hit_accession>40884</Hit_accession>
+          <Hit_len>134</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.140836</Hsp_evalue>
+              <Hsp_query-from>378</Hsp_query-from>
+              <Hsp_query-to>460</Hsp_query-to>
+              <Hsp_hit-from>11</Hsp_hit-from>
+              <Hsp_hit-to>97</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>46</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>89</Hsp_align-len>
+              <Hsp_qseq>SIAQPDDAGERFRQLKEQEK-RSKKNKAVAKDTVELVEESQSESEE-----GSDDEEEEAREGALASSTTSKPLPEVGQRRSKRSKRKR</Hsp_qseq>
+              <Hsp_hseq>SIRRSNDI-EEIKQLMEQLKIVEEENKPISLEKVEKIE-TKEENEEVILNYNSSDLEYEIGSNVGSDSDFDEIFMERGETSNSKSKRKR</Hsp_hseq>
+              <Hsp_midline>SI + +D  E  +QL EQ K   ++NK ++ + VE +E ++ E+EE      S D E E      + S   +   E G+  + +SKRKR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|11738</Hit_id>
+          <Hit_def>@Medicago_truncatula@_Medtr2g053030.1|PACid:17443389 </Hit_def>
+          <Hit_accession>11738</Hit_accession>
+          <Hit_len>473</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>3.66635</Hsp_evalue>
+              <Hsp_query-from>305</Hsp_query-from>
+              <Hsp_query-to>458</Hsp_query-to>
+              <Hsp_hit-from>290</Hsp_hit-from>
+              <Hsp_hit-to>440</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>69</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>160</Hsp_align-len>
+              <Hsp_qseq>DDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEK-----RSKKNKAVAKDTVELVEESQSESEEGSDDE-EEEAREGALASSTTSKPLPEVGQRRSKRSKR</Hsp_qseq>
+              <Hsp_hseq>DDAAQAFSEMVHRRNPDFNKLFAGNSQPGVCL--ITGESKKYANQ-------SAAPKNDRDGTSMSAASRSKRSTDGDQDDSNKDSPLSKKQKSNIISEDENPSGLAQNLGKVVSESEYESEYDSDTEFRQEYEELCKVRDTLKEENSVLTQRLAKLSEK</Hsp_hseq>
+              <Hsp_midline>DD AQ  + +V +  P     FA +   G+ +  +T      A Q        A P  D + + + +A R+KRS     D   +   L +++K       +    +A++  ++V ES+ ESE  SD E  +E  E      T  +    + QR +K S++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>53423</Statistics_db-num>
+          <Statistics_db-len>12992773</Statistics_db-len>
+          <Statistics_hsp-len>101</Statistics_hsp-len>
+          <Statistics_eff-space>2742535050</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

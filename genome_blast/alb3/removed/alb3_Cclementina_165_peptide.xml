@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/Phytozome/all//Cclementina_165_peptide</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|30631</Hit_id>
+          <Hit_def>@Citrus_clementina@_0.9_009932m|PACid:19281816 </Hit_def>
+          <Hit_accession>30631</Hit_accession>
+          <Hit_len>453</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>599.356</Hsp_bit-score>
+              <Hsp_score>1544</Hsp_score>
+              <Hsp_evalue>0</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>447</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>437</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>318</Hsp_identity>
+              <Hsp_positive>361</Hsp_positive>
+              <Hsp_gaps>18</Hsp_gaps>
+              <Hsp_align-len>451</Hsp_align-len>
+              <Hsp_qseq>MARVLVSSPSSFFGSPLIKPSSSLRHSGVGGGGTAQFLPYRSNNNKLFTTSTTVRFSLNEIPPFHGLDSSVDIGAIFTRAESLLYTIADAAV----VGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNMDENASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKKNKAVAKDTVELVEESQSESEEGSDDEEEEAREGALASSTTSKPLPE</Hsp_qseq>
+              <Hsp_hseq>MTKTLISSPP-FVGTPLPSPLSSLSRHGL------HPLPNRR------LASTRVRLSFQEIPPILSLDSSIDLNSVFSRTESLLYTLADAAVSLDSASGGAASTSADGATQKNGGWFGFISEAMEFVLKILKDGIDAVHVPYSYGFAIILLTVIVKVATFPLTKKQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYRQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLLTEGFFWIPSLSGPTTIAARQSGSGISWLLPFVDGHPPLGWHDTAAYLVLPVLLVVSQYASMELMKPPQTDDPAQKNTLLVFKFLPLMIGYFSLSVPSGLSIYWFTNNVLSTAQQVWLRKLGGAKPVVTENASEIITAGRAKRSVSQPSRAGDRFRQLKEEEKGKKLNKALPAEDVQTM-NSASDSEGESDGEKGQGVLEEAYASNRSKQVPD</Hsp_hseq>
+              <Hsp_midline>M + L+SSP  F G+PL  P SSL   G+        LP R         ST VR S  EIPP   LDSS+D+ ++F+R ESLLYT+ADAAV        +  T+   A QK+GGWFGFIS+AME VLKILKDG+ AVHVPY+YGFAIILLT+IVK AT+PLTK+QVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLY+QAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGL TEGFFWIPSL GPT+IAARQSGSGISWL PFVDGHPPLGW+DT AYLVLPVLL+ SQY SME+MKPPQTDDPAQKNTLLVFKFLPLMIGYF+LSVPSGLSIYW TNNVLSTAQQV+LRKLGGAKP + ENAS+II+AGRAKRS++QP  AG+RFRQLKE+EK  K NKA+  + V+ +  S S+SE  SD E+ +       +S  SK +P+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|8326</Hit_id>
+          <Hit_def>@Citrus_clementina@_0.9_006940m|PACid:19259434 </Hit_def>
+          <Hit_accession>8326</Hit_accession>
+          <Hit_len>538</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>435.647</Hsp_bit-score>
+              <Hsp_score>1119</Hsp_score>
+              <Hsp_evalue>2.70026e-147</Hsp_evalue>
+              <Hsp_query-from>80</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>66</Hsp_hit-from>
+              <Hsp_hit-to>400</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>219</Hsp_identity>
+              <Hsp_positive>271</Hsp_positive>
+              <Hsp_gaps>23</Hsp_gaps>
+              <Hsp_align-len>340</Hsp_align-len>
+              <Hsp_qseq>AESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNM--------DEN----------ASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>AERLLFTLADAAVSSSDAVTTT-----KQNSDWLSGITNVMETVLKVLKDGMSTLHVPYAYGFAIILLTVIVKAATFPLTKKQVESSMAMRSLAPQVKAIQERYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTIAARQNGSGISWLFPFVDGHPPLGWSDTFAYLVLPVLLVVSQYISVKIIQSSQNNDPNMKSSQALTNFLPLMIGYFALSVPSGLSLYWFTNNLLSTAQQVWLQKFGGAKDPMKQFSDIIKDERLDINKSVPGLSSTKKEAGQAEKLTTEGPRPGERFKQIKEQEARRRQ</Hsp_hseq>
+              <Hsp_midline>AE LL+T+ADAAV  +D+V TT     +++  W   I++ ME VLK+LKDG+S +HVPYAYGFAIILLT+IVKAAT+PLTK+QVES++AM++L P++KAIQ+RYAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVA+EGL TEGFFWIPSL GPT+IAARQ+GSGISWLFPFVDGHPPLGW DT AYLVLPVLL+ SQY+S++I++  Q +DP  K++  +  FLPLMIGYFALSVPSGLS+YW TNN+LSTAQQV+L+K GGAK  M        DE           +S    AG+A++   +    GERF+Q+KEQE R ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|8325</Hit_id>
+          <Hit_def>@Citrus_clementina@_0.9_006853m|PACid:19259433 </Hit_def>
+          <Hit_accession>8325</Hit_accession>
+          <Hit_len>541</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>434.491</Hsp_bit-score>
+              <Hsp_score>1116</Hsp_score>
+              <Hsp_evalue>8.75431e-147</Hsp_evalue>
+              <Hsp_query-from>80</Hsp_query-from>
+              <Hsp_query-to>401</Hsp_query-to>
+              <Hsp_hit-from>66</Hsp_hit-from>
+              <Hsp_hit-to>400</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>219</Hsp_identity>
+              <Hsp_positive>271</Hsp_positive>
+              <Hsp_gaps>23</Hsp_gaps>
+              <Hsp_align-len>340</Hsp_align-len>
+              <Hsp_qseq>AESLLYTIADAAVVGADSVVTTDSSAVQKSGGWFGFISDAMELVLKILKDGLSAVHVPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYLRKLGGAKPNM--------DEN----------ASKIISAGRAKRSIAQPDDAGERFRQLKEQEKRSKK</Hsp_qseq>
+              <Hsp_hseq>AERLLFTLADAAVSSSDAVTTT-----KQNSDWLSGITNVMETVLKVLKDGMSTLHVPYAYGFAIILLTVIVKAATFPLTKKQVESSMAMRSLAPQVKAIQERYAGDQERIQLETARLYKLAGINPLAGCLPTLATIPVWIGLYRALSNVADEGLLTEGFFWIPSLAGPTTIAARQNGSGISWLFPFVDGHPPLGWSDTFAYLVLPVLLVVSQYISVKIIQSSQNNDPNMKSSQALTNFLPLMIGYFALSVPSGLSLYWFTNNLLSTAQQVWLQKFGGAKDPMKQFSDIIKDERLDINKSVPGLSSTKKEAGQAEKLTTEGPRPGERFKQIKEQEARRRQ</Hsp_hseq>
+              <Hsp_midline>AE LL+T+ADAAV  +D+V TT     +++  W   I++ ME VLK+LKDG+S +HVPYAYGFAIILLT+IVKAAT+PLTK+QVES++AM++L P++KAIQ+RYAG+QERIQLET+RLYK AG+NPLAGCLPTLATIPVWIGLY+ALSNVA+EGL TEGFFWIPSL GPT+IAARQ+GSGISWLFPFVDGHPPLGW DT AYLVLPVLL+ SQY+S++I++  Q +DP  K++  +  FLPLMIGYFALSVPSGLS+YW TNN+LSTAQQV+L+K GGAK  M        DE           +S    AG+A++   +    GERF+Q+KEQE R ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|25930</Hit_id>
+          <Hit_def>@Citrus_clementina@_0.9_010575m|PACid:19277084 </Hit_def>
+          <Hit_accession>25930</Hit_accession>
+          <Hit_len>436</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>58.151</Hsp_bit-score>
+              <Hsp_score>139</Hsp_score>
+              <Hsp_evalue>5.21115e-09</Hsp_evalue>
+              <Hsp_query-from>127</Hsp_query-from>
+              <Hsp_query-to>403</Hsp_query-to>
+              <Hsp_hit-from>143</Hsp_hit-from>
+              <Hsp_hit-to>434</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>79</Hsp_identity>
+              <Hsp_positive>138</Hsp_positive>
+              <Hsp_gaps>85</Hsp_gaps>
+              <Hsp_align-len>327</Hsp_align-len>
+              <Hsp_qseq>LKDGLSAVH--VPYAYGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRY----------AGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEI-MKPPQTDDPA---QKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQVYL-----RKLGGA------------KPNMD-----ENASKIISAGRAKRSIA--QPDDA----------GERFRQLKEQEKRSKKNK</Hsp_qseq>
+              <Hsp_hseq>LQHFIDAMHNFTGFNWWASIIVTTLLIRTATVPLLINQLKSTSKLTLMRPRLEEIKQDMQDKAMDPMAVADGQKQMQ----NLFKEYGVHPLTPLKGLFIQGPVFISFFLAISNMAEK---------VPSF----------KNGGAFW---FTDLSTPDSFY------ILPILTGLSFLITVECNMQEGLEGNPAAVTMKNISRGFAVLSIPL---TMTFPKAIFCYWITSNFFSLVYGLVLKVPGVKKMLGVPEIPVVQQTTDPKPSFSLFSAIKQASEAKAARQASASVTAEQPKSTEQKISSSAVLSQRIRSLEKQVKGRKKNK</Hsp_hseq>
+              <Hsp_midline>L+  + A+H    + +  +II+ T++++ AT PL   Q++ST  +  ++P+++ I+Q            A  Q+++Q     L+K+ GV+PL          PV+I  + A+SN+A +         +PS              G  W   F D   P  +Y      +LP+L   S  +++E  M+     +PA    KN    F  L + +    ++ P  +  YW+T+N  S    + L     +K+ G             KP+       + AS+  +A +A  S+   QP              +R R L++Q K  KKNK</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|12088</Hit_id>
+          <Hit_def>@Citrus_clementina@_0.9_006603m|PACid:19263209 </Hit_def>
+          <Hit_accession>12088</Hit_accession>
+          <Hit_len>550</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>1.94195</Hsp_evalue>
+              <Hsp_query-from>319</Hsp_query-from>
+              <Hsp_query-to>354</Hsp_query-to>
+              <Hsp_hit-from>289</Hsp_hit-from>
+              <Hsp_hit-to>322</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>LPLM-IGYFALSVPSGLSIYWLTNNVLSTAQQVYLRK</Hsp_qseq>
+              <Hsp_hseq>LPLFFLGYY---IPQGSLVYWVTNSSFSIVQQLALKH</Hsp_hseq>
+              <Hsp_midline>LPL  +GY+   +P G  +YW+TN+  S  QQ+ L+ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>35976</Statistics_db-num>
+          <Statistics_db-len>14973385</Statistics_db-len>
+          <Statistics_hsp-len>104</Statistics_hsp-len>
+          <Statistics_eff-space>4021013398</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
