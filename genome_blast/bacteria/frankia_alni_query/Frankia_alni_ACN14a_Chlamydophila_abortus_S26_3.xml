@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Chlamydophila_abortus_S26_3</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</Iteration_query-def>
+      <Iteration_query-len>470</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|439</Hit_id>
+          <Hit_def>@Chlamydophila_abortus_S26_3@ gi|62185087|ref|YP_219872.1| unnamed protein product [Chlamydophila abortus S26/3]</Hit_def>
+          <Hit_accession>439</Hit_accession>
+          <Hit_len>794</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>79.337</Hsp_bit-score>
+              <Hsp_score>194</Hsp_score>
+              <Hsp_evalue>3.55713e-17</Hsp_evalue>
+              <Hsp_query-from>31</Hsp_query-from>
+              <Hsp_query-to>253</Hsp_query-to>
+              <Hsp_hit-from>574</Hsp_hit-from>
+              <Hsp_hit-to>771</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>63</Hsp_identity>
+              <Hsp_positive>115</Hsp_positive>
+              <Hsp_gaps>29</Hsp_gaps>
+              <Hsp_align-len>225</Hsp_align-len>
+              <Hsp_qseq>AWAFSVVLLVIAVRVLIFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG-NPLLGCLPILLQIPLFISLFHVFTHLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSDSDFVHFLGVNSTHVKILAVVLIVLMGLTTFMTQR-QIMARTGPVDPQQAIVQKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQF</Hsp_qseq>
+              <Hsp_hseq>SWGISIILLTVFLKLLLYPLNAWSIRSMRRMQKLSPYIQEIQQKYKKEPKRAQMEVMALYKTNKVNPITGCLPLLIQLPFLIAMFDLLKS-SFLLRGASFIPGW----------IDNLTAPDV--------LFSWTTPVWFIG-NEFH------LLPILLGVVMFIQQKLSALQKKGPVTDQQR-QQEAMGTMMALLFTFMFYNFPSGLNIYWFSSMLLGLIQQW</Hsp_hseq>
+              <Hsp_midline>+W  S++LL + +++L++PL    ++S R MQ + P I+EI++KY  +  R Q E+MAL K +  NP+ GCLP+L+Q+P  I++F +    + +  G +    W          ++ + +  V          S +  V F+G N  H      +L +L+G+  F+ Q+   + + GPV  QQ   Q+ +     L+     + FP  + +YW ++ L  + QQ+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|497</Hit_id>
+          <Hit_def>@Chlamydophila_abortus_S26_3@ gi|62185145|ref|YP_219930.1| rpsI gene product [Chlamydophila abortus S26/3]</Hit_def>
+          <Hit_accession>497</Hit_accession>
+          <Hit_len>133</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>1.30224</Hsp_evalue>
+              <Hsp_query-from>40</Hsp_query-from>
+              <Hsp_query-to>81</Hsp_query-to>
+              <Hsp_hit-from>79</Hsp_hit-from>
+              <Hsp_hit-to>125</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>VIAVRV-LIFPLFVKQVKSQRTMQ-----MMQPRIKEIREKYGHDKPR</Hsp_qseq>
+              <Hsp_hseq>VIATRLGLARALLKKNVDSKQELKSHGFLTRDPRKKE-RKKYGHKKAR</Hsp_hseq>
+              <Hsp_midline>VIA R+ L   L  K V S++ ++        PR KE R+KYGH K R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|513</Hit_id>
+          <Hit_def>@Chlamydophila_abortus_S26_3@ gi|62185161|ref|YP_219946.1| incA gene product [Chlamydophila abortus S26/3]</Hit_def>
+          <Hit_accession>513</Hit_accession>
+          <Hit_len>380</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>3.09814</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>89</Hsp_query-to>
+              <Hsp_hit-from>61</Hsp_hit-from>
+              <Hsp_hit-to>150</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>44</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>91</Hsp_align-len>
+              <Hsp_qseq>MLNPLYHLAA--NAIVFFHKGFAPIFGADSFFAWAFSVVLLVIAVRVLIFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMAL</Hsp_qseq>
+              <Hsp_hseq>LLQRIFHLIKIISAVSLLAVGIAALICLQFGVAVSTLSLVLMIAIMLVSFVIVIMVIQDSTPSQVAR-RMKQQLHQFSQENTRLHQEVNTL</Hsp_hseq>
+              <Hsp_midline>+L  ++HL    +A+     G A +       A +   ++L+IA+ ++ F + +  ++     Q+ + R+K+   ++  +  R+ QE+  L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|151</Hit_id>
+          <Hit_def>@Chlamydophila_abortus_S26_3@ gi|62184799|ref|YP_219584.1| unnamed protein product [Chlamydophila abortus S26/3]</Hit_def>
+          <Hit_accession>151</Hit_accession>
+          <Hit_len>1012</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>3.39228</Hsp_evalue>
+              <Hsp_query-from>58</Hsp_query-from>
+              <Hsp_query-to>92</Hsp_query-to>
+              <Hsp_hit-from>640</Hsp_hit-from>
+              <Hsp_hit-to>677</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>38</Hsp_align-len>
+              <Hsp_qseq>QRTMQMMQPRIKEI---REKYGHDKPRMQQEIMALQKE</Hsp_qseq>
+              <Hsp_hseq>QKNEQEKEKLIQELQGLRSLHAQEKESLQEEITKLQKE</Hsp_hseq>
+              <Hsp_midline>Q+  Q  +  I+E+   R  +  +K  +Q+EI  LQKE</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>932</Statistics_db-num>
+          <Statistics_db-len>333602</Statistics_db-len>
+          <Statistics_hsp-len>78</Statistics_hsp-len>
+          <Statistics_eff-space>102275152</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

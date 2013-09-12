@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Treponema_denticola_ATCC_35405</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</Iteration_query-def>
+      <Iteration_query-len>470</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2377</Hit_id>
+          <Hit_def>@Treponema_denticola_ATCC_35405@ gi|42527897|ref|NP_972995.1| inner membrane protein translocase component YidC [Treponema denticola ATCC 35405]</Hit_def>
+          <Hit_accession>2377</Hit_accession>
+          <Hit_len>582</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>77.411</Hsp_bit-score>
+              <Hsp_score>189</Hsp_score>
+              <Hsp_evalue>3.08473e-16</Hsp_evalue>
+              <Hsp_query-from>32</Hsp_query-from>
+              <Hsp_query-to>259</Hsp_query-to>
+              <Hsp_hit-from>380</Hsp_hit-from>
+              <Hsp_hit-to>580</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>61</Hsp_identity>
+              <Hsp_positive>112</Hsp_positive>
+              <Hsp_gaps>29</Hsp_gaps>
+              <Hsp_align-len>229</Hsp_align-len>
+              <Hsp_qseq>WAFSVVLLVIAVRVLIFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG-NPLLGCLPILLQIPLFISLFHVFTHLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSDSDFVHFLGVNSTHVKILAVVLIVLMGLTTFMTQRQIMARTGPVDPQQAIVQKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQFFVIKRM</Hsp_qseq>
+              <Hsp_hseq>WGVALLLLTLLMRIIFFPLTKKSSEATKRMQELQPQINELQQKYKNNPQKLNAEMVKFYKEAGYNPASGCLPLLIQLPFLFAMFGLFNNYFEF-RGASFIPGWIPDLSV-GDSILK------FGFTIP-----------FL--NWTDLRLLPIIYTASQLLHGKLTQ-------TPGQSQQNPSMKIMIYFMPLFFFFLFYNAPSGLLLFWTFSNILMLLQQLIINKSM</Hsp_hseq>
+              <Hsp_midline>W  +++LL + +R++ FPL  K  ++ + MQ +QP+I E+++KY ++  ++  E++   KE G NP  GCLP+L+Q+P   ++F +F +      G +    W P + +  D + +      FG ++            FL  N T +++L ++      L   +TQ        P   QQ    K+++Y  PL      +  P  +LL+W  +N+  + QQ  + K M</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1424</Hit_id>
+          <Hit_def>@Treponema_denticola_ATCC_35405@ gi|42526944|ref|NP_972042.1| inner membrane protein [Treponema denticola ATCC 35405]</Hit_def>
+          <Hit_accession>1424</Hit_accession>
+          <Hit_len>916</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>1.57784</Hsp_evalue>
+              <Hsp_query-from>215</Hsp_query-from>
+              <Hsp_query-to>254</Hsp_query-to>
+              <Hsp_hit-from>180</Hsp_hit-from>
+              <Hsp_hit-to>219</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>QKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQFF</Hsp_qseq>
+              <Hsp_hseq>DKLTLYITALIFLLLLYNSPSGLVFYWTLNNLFSLLKNIF</Hsp_hseq>
+              <Hsp_midline> K+ LY + L+  +  +  P  ++ YW   NL+S+ +  F</Hsp_midline>
+            </Hsp>
+            <Hsp>
+              <Hsp_num>2</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>1.88873</Hsp_evalue>
+              <Hsp_query-from>35</Hsp_query-from>
+              <Hsp_query-to>111</Hsp_query-to>
+              <Hsp_hit-from>35</Hsp_hit-from>
+              <Hsp_hit-to>117</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>84</Hsp_align-len>
+              <Hsp_qseq>SVVLLVIAVRVLIFPLFVK----QVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHGNPLLGC---LPILLQIPLFI</Hsp_qseq>
+              <Hsp_hseq>SIVLLSLGINIICLPMYNVAEQWQEKERAIQKKMKAKITDIKAVFKGDERYLMLSTYYRQNNY-HPLYALRSMFALFIQIPFFI</Hsp_hseq>
+              <Hsp_midline>S+VLL + + ++  P++      Q K +   + M+ +I +I+  +  D+  +       Q  + +PL        + +QIP FI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1202</Hit_id>
+          <Hit_def>@Treponema_denticola_ATCC_35405@ gi|42526722|ref|NP_971820.1| flagellar basal body rod protein FlgC [Treponema denticola ATCC 35405]</Hit_def>
+          <Hit_accession>1202</Hit_accession>
+          <Hit_len>151</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>8.43408</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>173</Hsp_query-to>
+              <Hsp_hit-from>94</Hsp_hit-from>
+              <Hsp_hit-to>149</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>THLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSDSDFVHFLGV</Hsp_qseq>
+              <Hsp_hseq>THPKALKYGPKEGYVEYPNVNIVTEMVDLISASRAYEANLAVVNGAKDMFQRALDI</Hsp_hseq>
+              <Hsp_midline>TH   +  GP    V  P V +  + V+ I++++ +  +LA   G+   F   L +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2767</Statistics_db-num>
+          <Statistics_db-len>866832</Statistics_db-len>
+          <Statistics_hsp-len>84</Statistics_hsp-len>
+          <Statistics_eff-space>244879944</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

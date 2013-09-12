@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Herpetosiphon_aurantiacus_DSM_785</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</Iteration_query-def>
+      <Iteration_query-len>470</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|759</Hit_id>
+          <Hit_def>@Herpetosiphon_aurantiacus_DSM_785@ gi|159897293|ref|YP_001543540.1| unnamed protein product [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+          <Hit_accession>759</Hit_accession>
+          <Hit_len>311</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>85.8853</Hsp_bit-score>
+              <Hsp_score>211</Hsp_score>
+              <Hsp_evalue>3.05761e-19</Hsp_evalue>
+              <Hsp_query-from>29</Hsp_query-from>
+              <Hsp_query-to>346</Hsp_query-to>
+              <Hsp_hit-from>11</Hsp_hit-from>
+              <Hsp_hit-to>306</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>93</Hsp_identity>
+              <Hsp_positive>149</Hsp_positive>
+              <Hsp_gaps>68</Hsp_gaps>
+              <Hsp_align-len>341</Hsp_align-len>
+              <Hsp_qseq>FFAWAF--------SVVLLVIAVRVLIFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG-NPLLGCLPILLQIPLFISLF---HVFTHLAPMNEGPNGALVWRPRVG-LSADQVEQIASAKVFGISLASEFGSDSDFVHFLGVNSTH--VKILAVVLIVLMGLTTFMTQRQIMARTGPVDPQQAIVQKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQFF-----VIKRMPPVRPLAAGGR---LPGARTGADAAPTPARPAPGVRAGAKSRNRARPAAAGGPSLAKSGDSGAGAMAATGGGSTAAKGAGVKGGAAKAGR</Hsp_qseq>
+              <Hsp_hseq>FLEWLFHLFGNLGWAIIAFTILVRLGMLPLTLKQLRSQRKIMVIQPKLRELQRKYSKDREKLTQETMKLYREHGANPVGGCLPLLISLPILFGVWQAIQLFGTSVPAT-AEQVQFLWLPRLTPLIENNV---------------------------TVNSAHDPYFILPILAIALQFITTLMA----MQRNP--DPQQASMNKVMMF-MPFIFGFIYFQFPAGATLYSVTGSLIQLVQQYFTSGFGLLSKYLPFLPEKTGFLHQPLPESATITIEEPETPSDQPQRRDFWAALGKLEPVV---------DVSAAGATADSGSSDIAAEQA-IEDVKAQLGK</Hsp_hseq>
+              <Hsp_midline>F  W F        +++   I VR+ + PL +KQ++SQR + ++QP+++E++ KY  D+ ++ QE M L +EHG NP+ GCLP+L+ +P+   ++    +F    P         +W PR+  L  + V                            VNS H    IL ++ I L  +TT M     M R    DPQQA + KV+++  P +     F+FP    LY +T +L  + QQ+F     ++ +  P  P   G     LP + T     P      P  R    +  +  P             S AGA A +G    AA+ A ++   A+ G+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1858</Hit_id>
+          <Hit_def>@Herpetosiphon_aurantiacus_DSM_785@ gi|159898392|ref|YP_001544639.1| unnamed protein product [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+          <Hit_accession>1858</Hit_accession>
+          <Hit_len>1080</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>1.19801</Hsp_evalue>
+              <Hsp_query-from>48</Hsp_query-from>
+              <Hsp_query-to>94</Hsp_query-to>
+              <Hsp_hit-from>213</Hsp_hit-from>
+              <Hsp_hit-to>257</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>47</Hsp_align-len>
+              <Hsp_qseq>FPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG</Hsp_qseq>
+              <Hsp_hseq>YPVLIQQLC--LTIQRWQTNSMTIFERLNHDWPALQQLFPVLQQTDG</Hsp_hseq>
+              <Hsp_midline>+P+ ++Q+    T+Q  Q     I E+  HD P +QQ    LQ+  G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|413</Hit_id>
+          <Hit_def>@Herpetosiphon_aurantiacus_DSM_785@ gi|159896947|ref|YP_001543194.1| unnamed protein product [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+          <Hit_accession>413</Hit_accession>
+          <Hit_len>131</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>2.32814</Hsp_evalue>
+              <Hsp_query-from>51</Hsp_query-from>
+              <Hsp_query-to>93</Hsp_query-to>
+              <Hsp_hit-from>83</Hsp_hit-from>
+              <Hsp_hit-to>125</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>FVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEH</Hsp_qseq>
+              <Hsp_hseq>YQRWLNRRRNLQTVEVRLQGDLARFGEQHPRTQRTLAQLQRLH</Hsp_hseq>
+              <Hsp_midline>+ + +  +R +Q ++ R++    ++G   PR Q+ +  LQ+ H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4415</Hit_id>
+          <Hit_def>@Herpetosiphon_aurantiacus_DSM_785@ gi|159900949|ref|YP_001547196.1| unnamed protein product [Herpetosiphon aurantiacus DSM 785]</Hit_def>
+          <Hit_accession>4415</Hit_accession>
+          <Hit_len>386</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>2.58735</Hsp_evalue>
+              <Hsp_query-from>226</Hsp_query-from>
+              <Hsp_query-to>336</Hsp_query-to>
+              <Hsp_hit-from>72</Hsp_hit-from>
+              <Hsp_hit-to>192</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>32</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>124</Hsp_align-len>
+              <Hsp_qseq>LAIFGFRFPIAVLLYW-------------LTTNLWSMGQQFFVIKRMPPVRPLAAGGRLPGARTGADAAPTPARPAPGVRAGAKSRNRARPAAAGGPSLAKSGDSGAGAMAATGGGSTAAKGAG</Hsp_qseq>
+              <Hsp_hseq>LASFGIAFAILGLAFWRADINLAEMWQQILQTNLWLYSAGFIVFYGLFPIRAWRWRIILRSAGFEVD-SPQSRKNWSGIAALSEFIGLSWFANCVVP--AKLGDAYRGYLVKKNGNASFSRTLG</Hsp_hseq>
+              <Hsp_midline>LA FG  F I  L +W             L TNLW     F V   + P+R       L  A    D +P   +   G+ A ++    +  A    P  AK GD+  G +    G ++ ++  G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5279</Statistics_db-num>
+          <Statistics_db-len>1972060</Statistics_db-len>
+          <Statistics_hsp-len>90</Statistics_hsp-len>
+          <Statistics_eff-space>568841000</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

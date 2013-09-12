@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Geobacter_metallireducens_GS_15</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</Iteration_query-def>
+      <Iteration_query-len>470</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3530</Hit_id>
+          <Hit_def>@Geobacter_metallireducens_GS_15@ gi|78224744|ref|YP_386491.1| unnamed protein product [Geobacter metallireducens GS-15]</Hit_def>
+          <Hit_accession>3530</Hit_accession>
+          <Hit_len>536</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>87.0409</Hsp_bit-score>
+              <Hsp_score>214</Hsp_score>
+              <Hsp_evalue>3.16017e-19</Hsp_evalue>
+              <Hsp_query-from>47</Hsp_query-from>
+              <Hsp_query-to>259</Hsp_query-to>
+              <Hsp_hit-from>365</Hsp_hit-from>
+              <Hsp_hit-to>530</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>57</Hsp_identity>
+              <Hsp_positive>102</Hsp_positive>
+              <Hsp_gaps>49</Hsp_gaps>
+              <Hsp_align-len>214</Hsp_align-len>
+              <Hsp_qseq>IFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG-NPLLGCLPILLQIPLFISLFHVFTHLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSDSDFVHFLGVNSTHVKILAVVLIVLMGLTTFMTQRQIMARTGPVDPQQAIVQKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQFFVIKRM</Hsp_qseq>
+              <Hsp_hseq>FYPLTHSSYKSMKQMQKLQPKMQEVREKYKNDRDAMNKAIMELYQTHKVNPVGGCLPMLVQIPVFFALYKALMFSIELRHAP--FMLW----------IQDLA-------------GKDPYY----------------VTPIIMGITMVIQQKMTPSQ---MDPMQ---QKMMM-ALPVVFTFMFLNFPSGLVLYWLVNNVLTIIQQSYINKSI</Hsp_hseq>
+              <Hsp_midline> +PL     KS + MQ +QP+++E+REKY +D+  M + IM L + H  NP+ GCLP+L+QIP+F +L+        +   P   ++W          ++ +A             G D  +                V  ++MG+T  + Q+   ++   +DP Q   QK+++   P++       FP  ++LYWL  N+ ++ QQ ++ K +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|967</Hit_id>
+          <Hit_def>@Geobacter_metallireducens_GS_15@ gi|78222182|ref|YP_383929.1| unnamed protein product [Geobacter metallireducens GS-15]</Hit_def>
+          <Hit_accession>967</Hit_accession>
+          <Hit_len>189</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>0.715656</Hsp_evalue>
+              <Hsp_query-from>412</Hsp_query-from>
+              <Hsp_query-to>464</Hsp_query-to>
+              <Hsp_hit-from>80</Hsp_hit-from>
+              <Hsp_hit-to>132</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>53</Hsp_align-len>
+              <Hsp_qseq>SPGKAAAAAGSGAEPAAVPAAGDGAATRPVPAPAGVRRQVGGSRPAKRRGKGK</Hsp_qseq>
+              <Hsp_hseq>DPDRCMATLVSGKGPDDEWGTGDESVVRTLTLPEGVRYGYGSRGPLKGRTKAE</Hsp_hseq>
+              <Hsp_midline> P +  A   SG  P      GD +  R +  P GVR   G   P K R K +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2175</Hit_id>
+          <Hit_def>@Geobacter_metallireducens_GS_15@ gi|78223390|ref|YP_385137.1| unnamed protein product [Geobacter metallireducens GS-15]</Hit_def>
+          <Hit_accession>2175</Hit_accession>
+          <Hit_len>833</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>1.05314</Hsp_evalue>
+              <Hsp_query-from>365</Hsp_query-from>
+              <Hsp_query-to>457</Hsp_query-to>
+              <Hsp_hit-from>24</Hsp_hit-from>
+              <Hsp_hit-to>114</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>38</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>100</Hsp_align-len>
+              <Hsp_qseq>AKPSQPPAAPPVAGAAGGADDV--PAAA---RSTAAGGKTAGGKASSGGRKSSPGKAAAAAGSGAEPAAVPAAGDGAATRPVPAPAGVRRQVGGS--RPA</Hsp_qseq>
+              <Hsp_hseq>ASPHRPAAALPTFTSLSSAAKASPPAEASSPRKNTEEGKTVTAKESS---------ADADELSAIEKSVIAKAGAEDNTRPQPYEVQELRQFGYNFFRPA</Hsp_hseq>
+              <Hsp_midline>A P +P AA P   +   A     PA A   R     GKT   K SS         A A   S  E + +  AG    TRP P      RQ G +  RPA</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2429</Hit_id>
+          <Hit_def>@Geobacter_metallireducens_GS_15@ gi|78223644|ref|YP_385391.1| unnamed protein product [Geobacter metallireducens GS-15]</Hit_def>
+          <Hit_accession>2429</Hit_accession>
+          <Hit_len>346</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>1.59279</Hsp_evalue>
+              <Hsp_query-from>325</Hsp_query-from>
+              <Hsp_query-to>399</Hsp_query-to>
+              <Hsp_hit-from>260</Hsp_hit-from>
+              <Hsp_hit-to>329</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>35</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>78</Hsp_align-len>
+              <Hsp_qseq>TGGGSTAAKGAGVKGGAAKAGRGSSSAPPGTRSRSGASAAAKPSQPPAAPPVA---GAAGGADDVPAAARSTAAGGKT</Hsp_qseq>
+              <Hsp_hseq>TGKGELASPTGGVHGALAAIQKKSSSLP--------AYSFAKPTEDGAGEPAARKRGAAKGDDRLGTSVSGIAGGGLT</Hsp_hseq>
+              <Hsp_midline>TG G  A+   GV G  A   + SSS P        A + AKP++  A  P A   GAA G D +  +    A GG T</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2562</Hit_id>
+          <Hit_def>@Geobacter_metallireducens_GS_15@ gi|78223777|ref|YP_385524.1| unnamed protein product [Geobacter metallireducens GS-15]</Hit_def>
+          <Hit_accession>2562</Hit_accession>
+          <Hit_len>1892</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>1.67486</Hsp_evalue>
+              <Hsp_query-from>117</Hsp_query-from>
+              <Hsp_query-to>164</Hsp_query-to>
+              <Hsp_hit-from>628</Hsp_hit-from>
+              <Hsp_hit-to>675</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>FTHLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSD</Hsp_qseq>
+              <Hsp_hseq>FGHPLPEGEGYGNPLSLRERVGVRAEERENVGYVEILGAAAHNLTGID</Hsp_hseq>
+              <Hsp_midline>F H  P  EG    L  R RVG+ A++ E +   ++ G +  +  G D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3534</Statistics_db-num>
+          <Statistics_db-len>1210919</Statistics_db-len>
+          <Statistics_hsp-len>87</Statistics_hsp-len>
+          <Statistics_eff-space>346025563</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

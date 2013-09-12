@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Aquifex_aeolicus_VF5</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</BlastOutput_query-def>
+  <BlastOutput_query-len>470</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Frankia_alni_ACN14a_gnl|BL_ORD_ID|6704 gi|111226214|ref|YP_717008.1| unnamed protein product [Frankia alni ACN14a]</Iteration_query-def>
+      <Iteration_query-len>470</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|135</Hit_id>
+          <Hit_def>@Aquifex_aeolicus_VF5@ gi|15605744|ref|NP_213121.1| hypothetical protein aq_175 [Aquifex aeolicus VF5]</Hit_def>
+          <Hit_accession>135</Hit_accession>
+          <Hit_len>502</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>96.2857</Hsp_bit-score>
+              <Hsp_score>238</Hsp_score>
+              <Hsp_evalue>1.15083e-22</Hsp_evalue>
+              <Hsp_query-from>31</Hsp_query-from>
+              <Hsp_query-to>255</Hsp_query-to>
+              <Hsp_hit-from>311</Hsp_hit-from>
+              <Hsp_hit-to>486</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>67</Hsp_identity>
+              <Hsp_positive>110</Hsp_positive>
+              <Hsp_gaps>51</Hsp_gaps>
+              <Hsp_align-len>226</Hsp_align-len>
+              <Hsp_qseq>AWAFSVVLLVIAVRVLIFPLFVKQVKSQRTMQMMQPRIKEIREKYGHDKPRMQQEIMALQKEHG-NPLLGCLPILLQIPLFISLFHVFTHLAPMNEGPNGALVWRPRVGLSADQVEQIASAKVFGISLASEFGSDSDFVHFLGVNSTHVKILAVVLIVLMGLTTFMTQRQIMARTGPVDPQQAIVQKVLLYGSPLMLAIFGFRFPIAVLLYWLTTNLWSMGQQFFV</Hsp_qseq>
+              <Hsp_hseq>SWVLSILVLTFIVRIFLFPLGYKSVVSMQKLQELAPKMEKIKQKYKDDPVKMQEEMMKLYAETGFNPMAGCLPILLQIPIFFALYKVLIITVDLKV---SSFLWIP--------------------SLA-----DKDPYY--------------ILPVIMGLTMILQQKM----TPSPDPKQALVG----YITSVAFTLLFINFPAGLVLYWTLNNVFNIIQNYLI</Hsp_hseq>
+              <Hsp_midline>+W  S+++L   VR+ +FPL  K V S + +Q + P++++I++KY  D  +MQ+E+M L  E G NP+ GCLPILLQIP+F +L+ V      +      + +W P                    SLA     D D  +              +L V+MGLT  + Q+     T   DP+QA+V     Y + +   +    FP  ++LYW   N++++ Q + +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1556</Hit_id>
+          <Hit_def>@Aquifex_aeolicus_VF5@ gi|10957069|ref|NP_046425.1| hypothetical protein aq_aa37 [Aquifex aeolicus VF5]</Hit_def>
+          <Hit_accession>1556</Hit_accession>
+          <Hit_len>146</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>2.49065</Hsp_evalue>
+              <Hsp_query-from>69</Hsp_query-from>
+              <Hsp_query-to>87</Hsp_query-to>
+              <Hsp_hit-from>69</Hsp_hit-from>
+              <Hsp_hit-to>87</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>13</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>19</Hsp_align-len>
+              <Hsp_qseq>KEIREKYGHDKPRMQQEIM</Hsp_qseq>
+              <Hsp_hseq>KYVRETYGRRKPKTNKEIV</Hsp_hseq>
+              <Hsp_midline>K +RE YG  KP+  +EI+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1437</Hit_id>
+          <Hit_def>@Aquifex_aeolicus_VF5@ gi|15607041|ref|NP_214423.1| SNF family Na(+)/neurotransmitter symporter [Aquifex aeolicus VF5]</Hit_def>
+          <Hit_accession>1437</Hit_accession>
+          <Hit_len>513</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>6.80649</Hsp_evalue>
+              <Hsp_query-from>225</Hsp_query-from>
+              <Hsp_query-to>264</Hsp_query-to>
+              <Hsp_hit-from>92</Hsp_hit-from>
+              <Hsp_hit-to>128</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>MLAIFGFRFPIAVLLYWLTTNLWSMGQQFFVIKRMPPVRP</Hsp_qseq>
+              <Hsp_hseq>ILGVFGLWIPLVVAIYYVYIESWTLG---FAIKFLVGLVP</Hsp_hseq>
+              <Hsp_midline>+L +FG   P+ V +Y++    W++G   F IK +  + P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1560</Statistics_db-num>
+          <Statistics_db-len>490148</Statistics_db-len>
+          <Statistics_hsp-len>80</Statistics_hsp-len>
+          <Statistics_eff-space>142485720</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
