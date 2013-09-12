@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Leptospira_borgpetersenii_serovar_Hardjo_bovis_JB197</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</BlastOutput_query-def>
+  <BlastOutput_query-len>462</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Alb3_gi|15226968|ref|NP_180446.1| inner membrane protein ALBINO3 [Arabidopsis thaliana]</Iteration_query-def>
+      <Iteration_query-len>462</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|130</Hit_id>
+          <Hit_def>@Leptospira_borgpetersenii_serovar_Hardjo_bovis_JB197@ gi|116329930|ref|YP_799648.1| preprotein translocase, YidC subunit [Leptospira borgpetersenii serovar Hardjo-bovis JB197]</Hit_def>
+          <Hit_accession>130</Hit_accession>
+          <Hit_len>622</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>120.939</Hsp_bit-score>
+              <Hsp_score>302</Hsp_score>
+              <Hsp_evalue>1.9728e-30</Hsp_evalue>
+              <Hsp_query-from>140</Hsp_query-from>
+              <Hsp_query-to>349</Hsp_query-to>
+              <Hsp_hit-from>418</Hsp_hit-from>
+              <Hsp_hit-to>606</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>69</Hsp_identity>
+              <Hsp_positive>109</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>210</Hsp_align-len>
+              <Hsp_qseq>YGFAIILLTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRYAGNQERIQLETSRLYKQAGVNPLAGCLPTLATIPVWIGLYQALSNVANEGLFTEGFFWIPSLGGPTSIAARQSGSGISWLFPFVDGHPPLGWYDTVAYLVLPVLLIASQYVSMEIMKPPQTDDPAQKNTLLVFKFLPLMIGYFALSVPSGLSIYWLTNNVLSTAQQ</Hsp_qseq>
+              <Hsp_hseq>YGWSIIIFAILFKLVFYPLNQKQAESMKKMQELSPQLKTINEKFANDPKMRQQKTMELYKKNNVNPVGGCLPMVIQIPIFIALYTAFSDTID--LWNSPFLWVKDLSEPDVI----------WTSPAIPYFTQTG----IGLNLLALLMVGTQIFQTRMTSVSM--DPNQKMLMYV---MPVMMLYIFWNMPSGVTLYWTFQNVLSIGQQ</Hsp_hseq>
+              <Hsp_midline>YG++II+  I+ K   YPL ++Q ES   MQ L P++K I +++A + +  Q +T  LYK+  VNP+ GCLP +  IP++I LY A S+  +  L+   F W+  L  P  I          W  P +      G    +   +L +L++ +Q     +       DP QK  + V   +P+M+ Y   ++PSG+++YW   NVLS  QQ</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2783</Hit_id>
+          <Hit_def>@Leptospira_borgpetersenii_serovar_Hardjo_bovis_JB197@ gi|116332584|ref|YP_802301.1| ATP-dependent protease [Leptospira borgpetersenii serovar Hardjo-bovis JB197]</Hit_def>
+          <Hit_accession>2783</Hit_accession>
+          <Hit_len>540</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>7.56392</Hsp_evalue>
+              <Hsp_query-from>147</Hsp_query-from>
+              <Hsp_query-to>183</Hsp_query-to>
+              <Hsp_hit-from>260</Hsp_hit-from>
+              <Hsp_hit-to>294</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>LTIIVKAATYPLTKQQVESTLAMQNLQPKIKAIQQRY</Hsp_qseq>
+              <Hsp_hseq>LLVLYKKEKKPITRSQVES--AVELVEKRIAVYKRRY</Hsp_hseq>
+              <Hsp_midline>L ++ K    P+T+ QVES  A++ ++ +I   ++RY</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2880</Statistics_db-num>
+          <Statistics_db-len>940856</Statistics_db-len>
+          <Statistics_hsp-len>85</Statistics_hsp-len>
+          <Statistics_eff-space>262413112</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

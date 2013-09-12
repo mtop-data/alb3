@@ -1,0 +1,126 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=34;
+	taxlabels
+	Cucumis_sativus_gnl_BL_ORD_ID_18533
+	Vitis_vinifera_gnl_BL_ORD_ID_16450
+	'Alb3_gi_15226968_ref_NP_180446.1_'[&!color=#-3407872]
+	Brassica_rapa_gnl_BL_ORD_ID_37155
+	Oryza_sativa_gnl_BL_ORD_ID_27700
+	Zea_mays_gnl_BL_ORD_ID_32200
+	Zea_mays_gnl_BL_ORD_ID_11477
+	Selaginella_moellendorffii_gnl_BL_ORD_ID_8056
+	Oryza_sativa_gnl_BL_ORD_ID_28879
+	Zea_mays_gnl_BL_ORD_ID_46719
+	Cucumis_sativus_gnl_BL_ORD_ID_32113
+	Vitis_vinifera_gnl_BL_ORD_ID_426
+	Medicago_truncatula_gnl_BL_ORD_ID_18646
+	'Alb4_gi_332192418_gb_AEE30539.1_'[&!color=#-3407872]
+	Brassica_rapa_gnl_BL_ORD_ID_16345
+	Brassica_rapa_gnl_BL_ORD_ID_32609
+	Aquilegia_coerulea_gnl_BL_ORD_ID_37516
+	Physcomitrella_patens_gnl_BL_ORD_ID_31321
+	Physcomitrella_patens_gnl_BL_ORD_ID_25182
+	Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9070
+	Volvox_carteri_gnl_BL_ORD_ID_5658
+	Micromonas_pusilla_CCMP1545_gnl_BL_ORD_ID_10331
+	gnl_BL_ORD_ID_4751
+	Ostreococcus_lucimarinus_gnl_BL_ORD_ID_557
+	Bordetella_petrii_DSM_12804_gnl_BL_ORD_ID_5023
+	Pseudomonas_stutzeri_A1501_gnl_BL_ORD_ID_4123
+	'pfYidC_gi_359763816_gb_AEV65895.1_'
+	Legionella_pneumophila_2300_99_Alcoy_gnl_BL_ORD_ID_3186
+	Coccomyxa_subellipsoidea_gnl_BL_ORD_ID_1260
+	Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5308
+	Volvox_carteri_gnl_BL_ORD_ID_4166
+	Coccomyxa_subellipsoidea_gnl_BL_ORD_ID_5045
+	Micromonas_pusilla_CCMP1545_gnl_BL_ORD_ID_3956
+	Ostreococcus_lucimarinus_gnl_BL_ORD_ID_3977
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Cucumis_sativus_gnl_BL_ORD_ID_18533[&length_mean=0.05725086554621848,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05578932,prob=1.0,length_95%HPD={0.02636082,0.0864956}]:0.05578932,Vitis_vinifera_gnl_BL_ORD_ID_16450[&length_mean=0.04757117525210086,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04593047,prob=1.0,length_95%HPD={0.02058613,0.07464551}]:0.04593047,(('Alb3_gi_15226968_ref_NP_180446.1_'[&length_mean=0.05570090451260504,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05444777,prob=1.0,length_95%HPD={0.02732149,0.08821291}]:0.05444777,Brassica_rapa_gnl_BL_ORD_ID_37155[&length_mean=0.0348793643983194,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03397203,prob=1.0,length_95%HPD={0.01203222,0.05928555}]:0.03397203)[&length_mean=0.04665135841848735,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0450872,prob=1.0,length_95%HPD={0.02005721,0.07785203}]:0.0450872,((Oryza_sativa_gnl_BL_ORD_ID_27700[&length_mean=0.04411798159831935,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04290759,prob=1.0,length_95%HPD={0.01893648,0.07383736}]:0.04290759,(Zea_mays_gnl_BL_ORD_ID_32200[&length_mean=0.04052954265042012,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0398733,prob=1.0,length_95%HPD={0.01795988,0.06524609}]:0.0398733,Zea_mays_gnl_BL_ORD_ID_11477[&length_mean=0.025934104992437,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02473556,prob=1.0,length_95%HPD={0.008062204,0.04702212}]:0.02473556)[&length_mean=0.01352649819756166,prob_range={0.5831932773109244,0.6436974789915967},prob(percent)="61",prob_stddev=0.04278293129868187,prob+-sd="61+-4",length_median=0.01185449,prob=0.6134453781512605,length_95%HPD={9.408832E-5,0.03052131}]:0.01185449)[&length_mean=0.02720891388552188,prob_range={0.9966386554621849,1.0},prob(percent)="100",prob_stddev=0.002376829516593429,prob+-sd="100+-0",length_median=0.02590415,prob=0.9983193277310924,length_95%HPD={0.00872398,0.05188483}]:0.02590415,(((Selaginella_moellendorffii_gnl_BL_ORD_ID_8056[&length_mean=0.135996505764706,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1344684,prob=1.0,length_95%HPD={0.08879754,0.1871555}]:0.1344684,((Oryza_sativa_gnl_BL_ORD_ID_28879[&length_mean=0.04647575699999998,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0448014,prob=1.0,length_95%HPD={0.01960695,0.0750907}]:0.0448014,Zea_mays_gnl_BL_ORD_ID_46719[&length_mean=0.04165666775630253,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03988485,prob=1.0,length_95%HPD={0.01781516,0.07332687}]:0.03988485)[&length_mean=0.1083936569747901,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1058385,prob=1.0,length_95%HPD={0.06665608,0.1516764}]:0.1058385,((Cucumis_sativus_gnl_BL_ORD_ID_32113[&length_mean=0.08683728078991593,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.08593948,prob=1.0,length_95%HPD={0.05190811,0.1245188}]:0.08593948,(Vitis_vinifera_gnl_BL_ORD_ID_426[&length_mean=0.04560364876470586,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04469354,prob=1.0,length_95%HPD={0.02003226,0.07282892}]:0.04469354,Medicago_truncatula_gnl_BL_ORD_ID_18646[&length_mean=0.157969457605042,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1576544,prob=1.0,length_95%HPD={0.1087335,0.2075359}]:0.1576544)[&length_mean=0.02300048560707962,prob_range={0.9411764705882353,0.957983193277311},prob(percent)="95",prob_stddev=0.01188414758296726,prob+-sd="95+-1",length_median=0.02179652,prob=0.9495798319327731,length_95%HPD={0.00456974,0.04425655}]:0.02179652)[&length_mean=0.01039582593019284,prob_range={0.5932773109243697,0.626890756302521},prob(percent)="61",prob_stddev=0.02376829516593432,prob+-sd="61+-2",length_median=0.008643342,prob=0.6100840336134454,length_95%HPD={3.071939E-5,0.02574576}]:0.008643342,(('Alb4_gi_332192418_gb_AEE30539.1_'[&length_mean=0.02944981295462187,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02750609,prob=1.0,length_95%HPD={0.009156066,0.0513823}]:0.02750609,(Brassica_rapa_gnl_BL_ORD_ID_16345[&length_mean=0.009789003458445394,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.008401406,prob=1.0,length_95%HPD={2.811947E-4,0.02227373}]:0.008401406,Brassica_rapa_gnl_BL_ORD_ID_32609[&length_mean=0.0340662692226891,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03249417,prob=1.0,length_95%HPD={0.01418277,0.05780883}]:0.03249417)[&length_mean=0.01673859776420697,prob_range={0.9899159663865547,0.9915966386554622},prob(percent)="99",prob_stddev=0.001188414758296714,prob+-sd="99+-0",length_median=0.01531508,prob=0.9907563025210084,length_95%HPD={0.003280561,0.03351884}]:0.01531508)[&length_mean=0.07464350706722689,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.07339166,prob=1.0,length_95%HPD={0.04058413,0.1119508}]:0.07339166,Aquilegia_coerulea_gnl_BL_ORD_ID_37516[&length_mean=0.1061244073445379,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1045577,prob=1.0,length_95%HPD={0.06268711,0.1455029}]:0.1045577)[&length_mean=0.03618442656565654,prob_range={0.9983193277310924,0.9983193277310924},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03535185,prob=0.9983193277310924,length_95%HPD={0.01046796,0.06337953}]:0.03535185)[&length_mean=0.04061541490420172,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03920005,prob=1.0,length_95%HPD={0.01263635,0.06948247}]:0.03920005)[&length_mean=0.1052447838067227,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1032261,prob=1.0,length_95%HPD={0.0650166,0.1519258}]:0.1032261)[&length_mean=0.04279470032298129,prob_range={0.9428571428571428,0.9512605042016806},prob(percent)="95",prob_stddev=0.005942073791483571,prob+-sd="95+-1",length_median=0.04104491,prob=0.9470588235294117,length_95%HPD={0.01477286,0.07564606}]:0.04104491,(Physcomitrella_patens_gnl_BL_ORD_ID_31321[&length_mean=0.02457754929243695,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.02335639,prob=1.0,length_95%HPD={0.006313368,0.04663654}]:0.02335639,Physcomitrella_patens_gnl_BL_ORD_ID_25182[&length_mean=0.03196671822352944,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.03070891,prob=1.0,length_95%HPD={0.009038769,0.05599347}]:0.03070891)[&length_mean=0.1275662787563025,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1266838,prob=1.0,length_95%HPD={0.08288426,0.1783684}]:0.1266838)[&length_mean=0.05502575813004485,prob_range={0.9361344537815126,0.9378151260504202},prob(percent)="94",prob_stddev=0.001188414758296714,prob+-sd="94+-0",length_median=0.05345984,prob=0.9369747899159664,length_95%HPD={0.02153961,0.09307053}]:0.05345984,(((((Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_9070[&length_mean=0.09983914943697471,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.09938329,prob=1.0,length_95%HPD={0.05501301,0.1411277}]:0.09938329,Volvox_carteri_gnl_BL_ORD_ID_5658[&length_mean=0.04793188272436979,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04615229,prob=1.0,length_95%HPD={0.01730703,0.08281104}]:0.04615229)[&length_mean=0.1837946073193278,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1841601,prob=1.0,length_95%HPD={0.09916498,0.254144}]:0.1841601,((Micromonas_pusilla_CCMP1545_gnl_BL_ORD_ID_10331[&length_mean=0.1254228602436975,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.12382,prob=1.0,length_95%HPD={0.08543034,0.1790526}]:0.12382,gnl_BL_ORD_ID_4751[&length_mean=0.0919971065882352,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.09082145,prob=1.0,length_95%HPD={0.05531834,0.1350089}]:0.09082145)[&length_mean=0.08588507319327725,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.08435519,prob=1.0,length_95%HPD={0.04384575,0.1312962}]:0.08435519,Ostreococcus_lucimarinus_gnl_BL_ORD_ID_557[&length_mean=0.1137726965966386,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1126475,prob=1.0,length_95%HPD={0.07016929,0.1654766}]:0.1126475)[&length_mean=0.1573515524033615,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1551439,prob=1.0,length_95%HPD={0.09840495,0.2250217}]:0.1551439)[&length_mean=0.05638749011003587,prob_range={0.7008403361344537,0.7058823529411765},prob(percent)="70",prob_stddev=0.003565244274890261,prob+-sd="70+-0",length_median=0.05008315,prob=0.7033613445378151,length_95%HPD={5.610132E-4,0.1246964}]:0.05008315,((Bordetella_petrii_DSM_12804_gnl_BL_ORD_ID_5023[&length_mean=0.2629485955462185,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2617261,prob=1.0,length_95%HPD={0.1757793,0.3481974}]:0.2617261,(Pseudomonas_stutzeri_A1501_gnl_BL_ORD_ID_4123[&length_mean=0.05545482008823527,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.05279235,prob=1.0,length_95%HPD={0.01705762,0.0969263}]:0.05279235,'pfYidC_gi_359763816_gb_AEV65895.1_'[&length_mean=0.07215456836134475,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.06937075,prob=1.0,length_95%HPD={0.03445784,0.1196725}]:0.06937075)[&length_mean=0.07744219399830359,prob_range={0.9882352941176471,0.9932773109243698},prob(percent)="99",prob_stddev=0.003565244274890143,prob+-sd="99+-0",length_median=0.07548734,prob=0.9907563025210084,length_95%HPD={0.02364838,0.1314346}]:0.07548734)[&length_mean=0.1300693898307956,prob_range={0.9932773109243698,0.9932773109243698},prob(percent)="99",prob_stddev=0.0,prob+-sd="99+-0",length_median=0.127907,prob=0.9932773109243698,length_95%HPD={0.05226227,0.2156305}]:0.127907,Legionella_pneumophila_2300_99_Alcoy_gnl_BL_ORD_ID_3186[&length_mean=0.1260220986806724,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1255529,prob=1.0,length_95%HPD={0.04475917,0.2036338}]:0.1255529)[&length_mean=0.7816940498319329,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.7793468,prob=1.0,length_95%HPD={0.6083282,0.9603679}]:0.7793468)[&length_mean=0.09206555541451765,prob_range={0.8605042016806723,0.8991596638655462},prob(percent)="88",prob_stddev=0.02733353944082455,prob+-sd="88+-3",length_median=0.09214314,prob=0.8798319327731092,length_95%HPD={0.02319258,0.1598216}]:0.09214314,Coccomyxa_subellipsoidea_gnl_BL_ORD_ID_1260[&length_mean=0.2150817046218487,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2143527,prob=1.0,length_95%HPD={0.1466528,0.2961905}]:0.2143527)[&length_mean=0.1227786320999154,prob_range={0.9899159663865547,0.9949579831932773},prob(percent)="99",prob_stddev=0.003565244274890143,prob+-sd="99+-0",length_median=0.1216772,prob=0.992436974789916,length_95%HPD={0.0643631,0.1761398}]:0.1216772,(((Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_5308[&length_mean=0.09764595178991589,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.09622727,prob=1.0,length_95%HPD={0.04630027,0.1546818}]:0.09622727,Volvox_carteri_gnl_BL_ORD_ID_4166[&length_mean=0.1810246429915966,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1787221,prob=1.0,length_95%HPD={0.1076603,0.2498084}]:0.1787221)[&length_mean=0.1363077632689075,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1358603,prob=1.0,length_95%HPD={0.070047,0.204723}]:0.1358603,Coccomyxa_subellipsoidea_gnl_BL_ORD_ID_5045[&length_mean=0.3858675237815126,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.383757,prob=1.0,length_95%HPD={0.2913882,0.4823039}]:0.383757)[&length_mean=0.1655294784537813,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1647185,prob=1.0,length_95%HPD={0.09002966,0.2475176}]:0.1647185,(Micromonas_pusilla_CCMP1545_gnl_BL_ORD_ID_3956[&length_mean=0.3076775347899161,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.3071598,prob=1.0,length_95%HPD={0.2171223,0.3961635}]:0.3071598,Ostreococcus_lucimarinus_gnl_BL_ORD_ID_3977[&length_mean=0.2016388051932773,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1995695,prob=1.0,length_95%HPD={0.124273,0.2897683}]:0.1995695)[&length_mean=0.4286987485714288,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.4262011,prob=1.0,length_95%HPD={0.3181701,0.5530177}]:0.4262011)[&length_mean=0.1248190912131423,prob_range={0.9966386554621849,0.9983193277310924},prob(percent)="100",prob_stddev=0.001188414758296714,prob+-sd="100+-0",length_median=0.1227643,prob=0.9974789915966387,length_95%HPD={0.0561965,0.2056253}]:0.1227643)[&length_mean=0.08498977238655456,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.08277195,prob=1.0,length_95%HPD={0.03268279,0.1390835}]:0.08277195)[&length_mean=0.06992599278991596,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.06863416,prob=1.0,length_95%HPD={0.03108678,0.1096445}]:0.06863416)[&length_mean=0.04650557564705875,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04487355,prob=1.0,length_95%HPD={0.01929467,0.07716202}]:0.04487355)[&length_mean=0.01830558404147287,prob_range={0.6470588235294118,0.653781512605042},prob(percent)="65",prob_stddev=0.004753659033186857,prob+-sd="65+-0",length_median=0.01662186,prob=0.6504201680672269,length_95%HPD={4.392691E-4,0.03659028}]:0.01662186);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="prob";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="length_mean";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="length_95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
