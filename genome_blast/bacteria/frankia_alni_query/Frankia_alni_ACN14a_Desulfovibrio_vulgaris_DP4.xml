@@ -52,34 +52,6 @@
             </Hsp>
           </Hit_hsps>
         </Hit>
-        <Hit>
-          <Hit_num>2</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|1070</Hit_id>
-          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120601972|ref|YP_966372.1| hypothetical protein Dvul_0924 [Desulfovibrio vulgaris DP4]</Hit_def>
-          <Hit_accession>1070</Hit_accession>
-          <Hit_len>461</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>25.409</Hsp_bit-score>
-              <Hsp_score>54</Hsp_score>
-              <Hsp_evalue>7.66066</Hsp_evalue>
-              <Hsp_query-from>351</Hsp_query-from>
-              <Hsp_query-to>442</Hsp_query-to>
-              <Hsp_hit-from>17</Hsp_hit-from>
-              <Hsp_hit-to>91</Hsp_hit-to>
-              <Hsp_query-frame>0</Hsp_query-frame>
-              <Hsp_hit-frame>0</Hsp_hit-frame>
-              <Hsp_identity>26</Hsp_identity>
-              <Hsp_positive>33</Hsp_positive>
-              <Hsp_gaps>17</Hsp_gaps>
-              <Hsp_align-len>92</Hsp_align-len>
-              <Hsp_qseq>APPGTRSRSGASAAAKPSQPPAAPPVAGAAGGADDVPAAARSTAAGGKTAGGKASSGGRKSSPGKAAAAAGSGAEPAAVPAAGDGAATRPVP</Hsp_qseq>
-              <Hsp_hseq>APPSKTERQKTSAATSPARPTPAQP-----------------SATAGKVQSGEASRTTGKGVHADAQSDASSPSVPGSTPGGDADKAAPSVP</Hsp_hseq>
-              <Hsp_midline>APP    R   SAA  P++P  A P                 +A  GK   G+AS    K     A + A S + P + P      A   VP</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
       </Iteration_hits>
       <Iteration_stat>
         <Statistics>

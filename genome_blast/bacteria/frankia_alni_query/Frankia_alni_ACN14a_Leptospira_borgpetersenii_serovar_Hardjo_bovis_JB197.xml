@@ -52,34 +52,6 @@
             </Hsp>
           </Hit_hsps>
         </Hit>
-        <Hit>
-          <Hit_num>2</Hit_num>
-          <Hit_id>gnl|BL_ORD_ID|549</Hit_id>
-          <Hit_def>@Leptospira_borgpetersenii_serovar_Hardjo_bovis_JB197@ gi|116330349|ref|YP_800067.1| bifunctional glycosyltransferase/sugar pyrophosphorylase [Leptospira borgpetersenii serovar Hardjo-bovis JB197]</Hit_def>
-          <Hit_accession>549</Hit_accession>
-          <Hit_len>474</Hit_len>
-          <Hit_hsps>
-            <Hsp>
-              <Hsp_num>1</Hsp_num>
-              <Hsp_bit-score>27.335</Hsp_bit-score>
-              <Hsp_score>59</Hsp_score>
-              <Hsp_evalue>1.66677</Hsp_evalue>
-              <Hsp_query-from>49</Hsp_query-from>
-              <Hsp_query-to>95</Hsp_query-to>
-              <Hsp_hit-from>21</Hsp_hit-from>
-              <Hsp_hit-to>71</Hsp_hit-to>
-              <Hsp_query-frame>0</Hsp_query-frame>
-              <Hsp_hit-frame>0</Hsp_hit-frame>
-              <Hsp_identity>18</Hsp_identity>
-              <Hsp_positive>29</Hsp_positive>
-              <Hsp_gaps>4</Hsp_gaps>
-              <Hsp_align-len>51</Hsp_align-len>
-              <Hsp_qseq>PLFVKQVKS--QRTMQMMQP--RIKEIREKYGHDKPRMQQEIMALQKEHGN</Hsp_qseq>
-              <Hsp_hseq>PLFEFQGKTILERNVELMQSTFRVKKIYIIVGHLKEMVLSEIEKIRKNHRD</Hsp_hseq>
-              <Hsp_midline>PLF  Q K+  +R +++MQ   R+K+I    GH K  +  EI  ++K H +</Hsp_midline>
-            </Hsp>
-          </Hit_hsps>
-        </Hit>
       </Iteration_hits>
       <Iteration_stat>
         <Statistics>
